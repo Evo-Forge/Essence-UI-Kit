@@ -1,13 +1,20 @@
 import React from 'react';
 import ClassNames from 'classnames';
 
-import { Btn, AppBar, Block, Text, Utils, Menu, List, ListItem} from 'react-essence';
+import { Btn, AppBar, Block, Text, Utils, Menu, List, ListItem, Tab} from 'react-essence';
+var tabs = {
+ 'header': [
+   { 'context': (<Text classes={'e-text-uppercase'}>About Me</Text>) },
+   { 'context': (<Text classes={'e-text-uppercase'}>follow me</Text>) },
+   { 'context': (<Text classes={'e-text-uppercase'}>My works</Text>) }
+  ]
+};
 
 class MateriableBlog extends React.Component {
 
     render() {
         return (
-        <Block>
+        <Block className={'materiable-blog'}>
           <Block classes='top-blog e-background-indigo-500'>
           </Block>
       		<Block className={'e-container go-top'}>
@@ -17,6 +24,10 @@ class MateriableBlog extends React.Component {
                 </Text>
                 <Text type={'p'} classes={'e-text-center e-text-light-blue-300 e-right under-right'}>Blog
                 </Text>
+                <Tab
+                  data={tabs}
+                  classes={'e-background-indigo-500 e-text-grey-50'}
+                  indicator={'e-background-red-500'}/>
               </Block>
               <Block classes={'brick brick-8 border'}>
               </Block>
