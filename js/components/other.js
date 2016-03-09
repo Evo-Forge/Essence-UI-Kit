@@ -7,13 +7,9 @@ class MateriableOther extends React.Component {
 
     render() {
         return (
-        	
-        		<Block className={'e-container '}>
-        			<Block>
-        				AICI se construieste OTHER
-					</Block>
-				</Block>
-		
+          <Block className={'e-container '}>
+
+          </Block>		
         );
     }
 }

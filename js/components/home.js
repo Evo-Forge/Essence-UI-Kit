@@ -7,13 +7,9 @@ class MateriableHome extends React.Component {
 
     render() {
         return (
-        	
-        		<Block className={'e-container '}>
-        			<Block>
-        				AICI se construieste HOME
-					</Block>
-				</Block>
-		
+          <Block className={'e-container '}>
+
+          </Block>		
         );
     }
 }

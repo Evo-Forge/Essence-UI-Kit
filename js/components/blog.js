@@ -7,13 +7,10 @@ class MateriableBlog extends React.Component {
 
     render() {
         return (
-        	
-        		<Block className={'e-container '}>
-        			<Block>
-        				AICI se construieste BLOG
-					</Block>
+    		<Block className={'e-container '}>
+    			
 				</Block>
-		
+
         );
     }
 }

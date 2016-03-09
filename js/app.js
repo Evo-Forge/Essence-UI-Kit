@@ -22,10 +22,10 @@ class Materiable extends React.Component {
         	<Block>
         		<MateriableHeader />
         		<MateriableHome />
-                <MateriableBlog />
-                <MateriablePortfolio />
-                <MateriableOther />
-                <MateriableFooter />
+            <MateriableBlog />
+            <MateriablePortfolio />
+            <MateriableOther />
+            <MateriableFooter />
         	</Block>
         );
     }
