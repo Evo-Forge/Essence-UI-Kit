@@ -7,8 +7,7 @@
   "author": "Hetmann W. Iohan <iohan@getessece.io>",
   "license": "MIT",
   "scripts": {
-    "template:dev": "webpack-dev-server --devtool eval --hot --progress --colors --optimize-minimize --config webpack.config.js --port 8080 --host 0.0.0.0 --content-base ./",
-    "template:essence": "webpack -p --optimize-minimize --config webpack.config.js && http-server ./ -p 8080 -a 0.0.0.0 -o",
+    "development": "webpack-dev-server --devtool eval --hot --progress --colors --optimize-minimize --config webpack.config.js --port 8080 --host 0.0.0.0 --content-base ./"
   },
   "babel": {
     "presets": [
@@ -28,7 +27,7 @@
     "basic",
     "frontend",
     "ui",
-    "kit"
+    "kit",
     "framework",
     "less"
   ],
