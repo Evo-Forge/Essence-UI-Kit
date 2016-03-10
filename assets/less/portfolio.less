@@ -1,3 +1,115 @@
-.materiable-portfolio {
-  border: 1px solid red;
+.add-red-border {
+  // border: 1px solid red;
 }
+
+.materiable-portfolio {
+  .light-bg {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    .container {
+      width: 1200px;
+      li {
+        line-height: 50px;
+        border-bottom: 2px solid transparent;
+        width: 100px;
+        a {
+          display: block;
+        }
+        &:hover, &.active {
+          border-bottom: 2px solid #BB6F8B;
+          a {
+            color: #212121!important;
+          }
+        }
+      }
+    }
+  } //end light-bg
+  .e-container {
+
+  }
+  .portfolio-container {
+    width: 100%;
+    border-top: 1px solid #F5F5F5;
+    line-height: normal!important;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    .img-container {
+      position: relative;
+      margin: 5px!important;
+      img {
+        width: 100%;
+        height: inherit;
+        display: block;
+      }
+      .layer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: 0;
+      }
+      .text-container {
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: white;
+        padding: 10px;
+        ul {
+          margin-left: -8px;
+        }
+      }
+      &:hover {
+        .layer {
+          opacity: 0.7;
+          transition: opacity .3s ease-in-out;
+          -moz-transition: opacity .3s ease-in-out;
+          -webkit-transition: opacity .3s ease-in-out;
+        }
+        .text-container {
+          opacity: 1;
+          transition: opacity .3s ease-in-out;
+          -moz-transition: opacity .3s ease-in-out;
+          -webkit-transition: opacity .3s ease-in-out;
+        }
+      }
+    }
+  } //end portfolio-container
+  .left-column {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    .top-row {
+      height: 70%;
+      display: flex;
+      .left-col {
+        .add-red-border;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+      }
+      .right-col {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        .add-red-border;
+      }
+    }
+    .bottom-row {
+      .add-red-border;
+      height: 30%;
+    }
+  }//end left-column
+  .right-column {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+  }//end right-column
+}//end materiable-portfolio
