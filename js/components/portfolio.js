@@ -131,7 +131,7 @@ class MateriablePortfolio extends React.Component {
                           </Block>
                       </Block>{/* end img-container */}
 
-                      <Block className={'img-container e-no-margin e-no-padding'}>
+                      <Block className={'img-container e-no-margin e-no-padding active'}>
                           <Image src={'../assets/img/tiger.jpg'} />
                           <Block className={'layer e-background-indigo-A400'}></Block>
                           <Block className={'text-container'}>
@@ -157,7 +157,7 @@ class MateriablePortfolio extends React.Component {
 
                   <Block className={'bottom-row'}>
                     <Block className={'img-container e-no-margin e-no-padding'}>
-                        <Image src={'../assets/img/tiger.jpg'} />
+                        <Image src={'../assets/img/ara.jpg'} />
                         <Block className={'layer e-background-indigo-A400'}></Block>
                         <Block className={'text-container'}>
                           <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
@@ -249,6 +249,10 @@ class MateriablePortfolio extends React.Component {
                       </Block>
                   </Block>
                 </Block> {/* right column end */}
+
+                <Block className={'load-more'}>
+                  <Icon name={"navigation-refresh"} className={"e-text-grey-400"} />
+                </Block>
 
 
               </Paper>
