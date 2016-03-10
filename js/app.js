@@ -13,6 +13,7 @@ import MateriableHome from './components/home';
 import MateriableBlog from './components/blog';
 import MateriablePortfolio from './components/portfolio';
 import MateriableOther from './components/other';
+import MateriableContact from './components/contact';
 import MateriableFooter from './components/footer';
 
 
@@ -25,6 +26,7 @@ class Materiable extends React.Component {
             <MateriableBlog />
             <MateriablePortfolio />
             <MateriableOther />
+						<MateriableContact />
             <MateriableFooter />
         	</Block>
         );
