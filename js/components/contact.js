@@ -13,7 +13,7 @@ class MateriableContact extends React.Component {
             </Block>
             <Block className={'main-bg e-background-grey-100'}>
               <Block className={'e-container '}>
-                <Paper className={'padding-50 e-background-white negative-margin'}>
+                <Paper className={'padding-50 e-background-white negative-margin container'}>
                   <Block classes={'e-row'}>
                     <Block classes={'brick brick-7'}>
                       <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
@@ -39,7 +39,7 @@ class MateriableContact extends React.Component {
                   </Block>
                 </Paper>
               </Block>
-              <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'fab'} className={'fab e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />
+              {/*<Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'fab'} className={'fab e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />*/}
             </Block>
           </Block>
         );
