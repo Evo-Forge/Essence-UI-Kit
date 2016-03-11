@@ -1,5 +1,228 @@
+.materiables-other .container {
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+.materiables-other .header-bg {
+  height: 150px;
+}
+.materiables-other .padding-50 {
+  padding: 50px;
+}
+.materiables-other .negative-margin {
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+.materiables-other .left-border {
+  border-left: 2px solid grey;
+}
+.materiables-other .length-small {
+  max-width: 60%;
+}
+.materiables-other .e-padding-left-25 {
+  padding-left: 25px;
+}
+.materiables-other .adjust-fab-header {
+  position: absolute;
+  right: 100px;
+  top: 170px;
+}
+@media (max-width: 1560px) {
+  .header-bg .hide-fab {
+    display: none;
+  }
+}
+.materiable-portfolio .light-bg {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.materiable-portfolio .light-bg .container {
+  max-width: 1200px;
+  width: 100%;
+}
+.materiable-portfolio .light-bg .container li {
+  line-height: 50px;
+  border-bottom: 2px solid transparent;
+  width: 100px;
+}
+.materiable-portfolio .light-bg .container li a {
+  display: block;
+}
+.materiable-portfolio .light-bg .container li:hover,
+.materiable-portfolio .light-bg .container li.active {
+  border-bottom: 2px solid #BB6F8B;
+}
+.materiable-portfolio .light-bg .container li:hover a,
+.materiable-portfolio .light-bg .container li.active a {
+  color: #212121!important;
+}
+.materiable-portfolio .portfolio-container {
+  width: 100%;
+  border-top: 1px solid #F5F5F5;
+  line-height: normal!important;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.materiable-portfolio .portfolio-container .fixed-box {
+  width: 287.5px;
+  max-width: 287.5px;
+  min-width: 287.5px;
+  height: 287.5px;
+  max-height: 287.5px;
+  min-height: 287.5px;
+}
+.materiable-portfolio .portfolio-container .img-container {
+  cursor: pointer;
+  position: relative;
+  margin: 5px!important;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.materiable-portfolio .portfolio-container .img-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  flex-grow: 1;
+}
+.materiable-portfolio .portfolio-container .img-container .layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.materiable-portfolio .portfolio-container .img-container .text-container {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 10px;
+}
+.materiable-portfolio .portfolio-container .img-container .text-container ul {
+  margin-left: -8px;
+}
+.materiable-portfolio .portfolio-container .img-container:hover .layer,
+.materiable-portfolio .portfolio-container .img-container.active .layer {
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+}
+.materiable-portfolio .portfolio-container .img-container:hover .text-container,
+.materiable-portfolio .portfolio-container .img-container.active .text-container {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+}
+.materiable-portfolio .left-column {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.materiable-portfolio .left-column .top-row {
+  height: 70%;
+  display: flex;
+}
+.materiable-portfolio .left-column .top-row .left-col {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.materiable-portfolio .left-column .top-row .right-col {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.materiable-portfolio .left-column .bottom-row {
+  height: 30%;
+}
+.materiable-portfolio .right-column {
+  width: 20%;
+  min-width: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.materiable-portfolio .load-more {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.materiable-portfolio .load-more i {
+  cursor: pointer;
+}
+.materiables-contact .header-bg-big {
+  height: 400px;
+  background: linear-gradient(rgba(76, 66, 126, 0.8), rgba(76, 66, 126, 0.8)), url('http://blog.hvidtfeldts.net/media/map3x.jpg') center center fixed;
+  background-size: cover;
+}
+.materiables-contact .padding-50 {
+  padding: 50px;
+}
+.materiables-contact .negative-margin {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+.materiables-contact .adjust-fab-header {
+  position: absolute;
+  right: 100px;
+  top: 420px;
+}
+.materiables-contact .container {
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 1560px) {
+  .main-bg .fab {
+    display: none;
+  }
+}
+.materiables-other .container {
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+.materiables-other .header-bg {
+  height: 150px;
+}
+.materiables-other .padding-50 {
+  padding: 50px;
+}
+.materiables-other .negative-margin {
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+.materiables-other .left-border {
+  border-left: 2px solid grey;
+}
+.materiables-other .length-small {
+  max-width: 60%;
+}
+.materiables-other .e-padding-left-25 {
+  padding-left: 25px;
+}
+.materiables-other .adjust-fab-header {
+  position: absolute;
+  right: 100px;
+  top: 170px;
+}
+@media (max-width: 1560px) {
+  .header-bg .hide-fab {
+    display: none;
+  }
+}
 footer {
-	width: 100%;
-	height: 50px;
-	line-height: 50px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
 }
