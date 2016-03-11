@@ -11,11 +11,11 @@ class MateriableHome extends React.Component {
               <Block className={'header e-text-center'}>
                   <Image src={'http://www.studiomatris.com/wp-content/uploads/2012/08/color_icon.png'} className={'e-margin-bottom-25'} height={'75px'} />
                   <Text type={'h1'} classes={'e-text-center e-display-3 adjust-h1-header e-margin-bottom-40'}>
-                      meet yur new materiable theme
+                      meet your new materiable theme
                   </Text>
                   <Block>
-                      <Btn label={'BUY THEME'} ripple={false} type={'primary'} className={'raised e-margin-bottom-50 e-padding-left-right-20'} />
-                      <Btn label={'CONTACT US'} ripple={false} type={'primary'} className={'raised e-margin-bottom-25 e-background-indigo-600'} />
+                      <Btn label={'BUY THEME'} ripple={true} type={'primary'} className={'raised e-margin-bottom-50 e-padding-left-right-20'} />
+                      <Btn label={'CONTACT US'} ripple={true} type={'primary'} className={'raised e-margin-bottom-25 e-background-indigo-600'} />
                   </Block>
                   <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'primary'} className={'fab-mini e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />
               </Block>
@@ -141,7 +141,7 @@ class MateriableHome extends React.Component {
                             </Block>
                         </Block>
                     </Block>
-                    <Btn label={'SEE MORE'} ripple={false} type={'primary'} className={'raised align-self-class e-margin-top-50'} />
+                    <Btn label={'SEE MORE'} ripple={true} type={'primary'} className={'raised align-self-class e-margin-top-50'} />
                 </Block>
               </Block>
 
@@ -160,7 +160,7 @@ class MateriableHome extends React.Component {
                       <Block className={'e-row adjust-e-row-paper e-margin-top-50'}>
                         <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
+                                <Image src='../assets/img/photo1.jpg'/>
                                 <Block className={'layer e-background-indigo-A400'}></Block>
                                 <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
                                   sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
@@ -169,7 +169,7 @@ class MateriableHome extends React.Component {
                         </Block>
                         <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://monicapoenariu.files.wordpress.com/2015/03/spring-summer-2015.png?w=290'/>
+                                <Image src='../assets/img/photo2.jpg'/>
                                 <Block className={'layer e-background-indigo-A400'}></Block>
                                     <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
                                       sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
@@ -178,7 +178,7 @@ class MateriableHome extends React.Component {
                         </Block>
                         <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-8-zAswZZT8Y/AAAAAAAAAAI/AAAAAAAAAAw/rsGVnQ6WSzo/photo.jpg'/>
+                                <Image src='../assets/img/photo3.png'/>
                                 <Block className={'layer e-background-indigo-A400'}></Block>
                                     <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
                                       sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
@@ -187,7 +187,7 @@ class MateriableHome extends React.Component {
                         </Block>
                         <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-Zw4IdXBykhc/AAAAAAAAAAI/AAAAAAAAGl0/JEhKLec9gyo/photo.jpg'/>
+                                <Image src='../assets/img/photo4.jpg'/>
                                 <Block className={'layer e-background-indigo-A400'}></Block>
                                     <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
                                       sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
@@ -196,7 +196,7 @@ class MateriableHome extends React.Component {
                         </Block>
                         <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='http://static.bhphotovideo.com/explora/sites/default/files/cs-aurora.jpg'/>
+                                <Image src='../assets/img/photo5.jpg'/>
                                 <Block className={'layer e-background-indigo-A400'}></Block>
                                     <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
                                       sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
@@ -205,7 +205,7 @@ class MateriableHome extends React.Component {
                         </Block>
                         <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
+                                <Image src='../assets/img/photo4.jpg'/>
                                 <Block className={'layer e-background-indigo-A400'}></Block>
                                     <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
                                       sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
@@ -214,7 +214,7 @@ class MateriableHome extends React.Component {
                         </Block>
                         <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='http://static.bhphotovideo.com/explora/sites/default/files/cs-aurora.jpg'/>
+                                <Image src='../assets/img/photo1.jpg'/>
                                 <Block className={'layer e-background-indigo-A400'}></Block>
                                     <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
                                       sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
@@ -223,15 +223,15 @@ class MateriableHome extends React.Component {
                         </Block>
                         <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-8-zAswZZT8Y/AAAAAAAAAAI/AAAAAAAAAAw/rsGVnQ6WSzo/photo.jpg'/>
+                                <Image src='../assets/img/photo2.jpg'/>
                                 <Block className={'layer e-background-indigo-A400'}></Block>
                                     <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
                                       sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
                                 </Text>
                             </Paper>
                         </Block>
-                        <Btn label={'MORE WORK'} ripple={false} className={'raised e-background-pink-A200 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
-                        <Btn label={'CONTACT US'} ripple={false} className={'raised e-background-grey-800 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
+                        <Btn label={'MORE WORK'} ripple={true} className={'raised e-background-pink-A200 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
+                        <Btn label={'CONTACT US'} ripple={true} className={'raised e-background-grey-800 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
                       </Block>
                  </Block>
               </Block>
@@ -434,9 +434,9 @@ class MateriableHome extends React.Component {
                <Block className={'main-eight e-background-grey-800'}>
                  <Block className={'e-container e-padding-top-50 e-padding-bottom-50 flex-container'}>
                          <Text type={'h1'} classes={'e-text-center e-display-3 adjust-h1-header e-margin-bottom-40'}>
-                             meet yur new materiable theme
+                             meet your new materiable theme
                          </Text>
-                         <Btn label={'BUY THEME'} ripple={false} className={'raised e-background-pink-A200 e-margin-top-25 adjust-buy-button e-text-white'} />
+                         <Btn label={'BUY THEME'} ripple={true} className={'raised e-background-pink-A200 e-margin-top-25 adjust-buy-button e-text-white'} />
                  </Block>
                </Block>
 
