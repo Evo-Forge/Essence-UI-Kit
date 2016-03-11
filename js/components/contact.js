@@ -1,8 +1,8 @@
 import React from 'react';
 import ClassNames from 'classnames';
 
-import { Btn, AppBar, Block, Text, Utils, Menu, List, ListItem, Paper, Input, Icon } from 'react-essence';
-
+import { Btn, AppBar, Block, Text, Utils, Menu, List, ListItem, Paper, Icon } from 'react-essence';
+import Input from 'essence-input';
 
 class MateriableContact extends React.Component {
 
@@ -11,30 +11,66 @@ class MateriableContact extends React.Component {
           <Block className={'materiables-contact'}>
             <Block className={'header-bg-big'}>
             </Block>
-            <Block className={'main-bg e-background-grey-100'}>
+            <Block className={'e-background-grey-100'}>
               <Block className={'e-container '}>
                 <Paper className={'padding-50 e-background-white negative-margin container'}>
                   <Block classes={'e-row'}>
-                    <Block classes={'brick brick-7'}>
+                    <Block classes={'brick brick-6'}>
                       <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
                         send a message
                       </Text>
-                      <Icon name={"social-person"} className={"e-text-grey-700"} /><Input classes={'has-success'} type={'text'} name={'label'} placeholder={'Your name'}/>
-                      <Icon name={"communication-email"} className={"e-text-grey-700"} /><Input type={'email'} name={'label'} label={'Your email'}/>
-                      <Icon name={"social-whatshot"} className={"e-text-grey-700"} /><Input type={'text'} name={'label'} label={'Your job'}/>
-                      <Icon name={"communication-messenger"} className={"e-text-grey-700"} /><Input type={'text'} name={'label'} label={'Your message'}/>
-                      <Text type={'a'} href={''} classes={'e-text-right e-text-grey-700 e-text-uppercase e-body1'}>clear</Text>
-                      <Text type={'a'} href={''} classes={'e-text-right e-text-indigo-600 e-text-uppercase e-body1'}>send message</Text>
+                      <Block>
+                        <Icon name={"social-person"} className={"e-text-grey-800"} />
+                        <Input type={'text'} name={'label'} label={'Input with label'}/>
+                      </Block>
+                      <Block>
+                        <Icon name={"communication-email"} className={"e-text-grey-800"} />
+                        <Input type={'email'} name={'label'} label={'Your email'}/>
+                      </Block>
+                      <Block>
+                        <Icon name={"social-whatshot"} className={"e-text-grey-800"} />
+                        <Input type={'text'} name={'label'} label={'Your job'}/>
+                      </Block>
+                      <Block>
+                        <Icon name={"communication-messenger"} className={"e-text-grey-800"} />
+                        <Input type={'text'} name={'label'} label={'Your message'}/>
+                      </Block>
+                      <Block classes={'e-row'}>
+                        <Block classes={'brick brick-6 e-text-right'}>
+                          <Text type={'a'} href={''} classes={' e-text-grey-700 e-text-uppercase e-body2'}>clear</Text>
+                        </Block>
+                        <Block classes={'brick brick-6 e-text-right'}>
+                          <Text type={'a'} href={''} classes={'e-text-indigo-600 e-text-uppercase e-body2'}>send message</Text>
+                        </Block>
+                      </Block>
                     </Block>
-                    <Block classes={'brick brick-5'}>
-                      <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
-                        get social
-                      </Text>
-                      <Btn icon={'action-accessibility'} ripple={true} type={'fab'} className={'fab e-text-grey-800 e-background-grey-300'} />
-                      <Btn icon={'action-info-outline'} ripple={true} type={'fab'} className={'fab e-text-grey-800 e-background-grey-300'} />
-                      <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-grey-800 e-background-grey-300'} />
-                      <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-grey-800 e-background-grey-300'} />
-                      <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-grey-800 e-background-grey-300'} />
+                    <Block classes={'brick brick-6'}>
+                        <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
+                          get social
+                        </Text>
+                        <Btn icon={'action-accessibility'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                        <Btn icon={'action-info-outline'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                        <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                        <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                        <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                        <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
+                          <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
+                            contact info
+                          </Text>
+                          <Text type={'p'} classes={'e-text-left e-body1'}>
+                            Section 1.10.33 of de Finibus
+                            Bonorum et malorum sk
+                            9002 st.
+                          </Text>
+                          <Text type={'p'} classes={'e-text-left e-body1'}>
+                            +3321 1123 456227
+                          </Text>
+                          <Text type={'p'} classes={'e-text-left e-body1'}>
+                            +3321 1123 456227
+                          </Text>
+                        </Block>
+                        <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
+                        </Block>
                     </Block>
                   </Block>
                 </Paper>
