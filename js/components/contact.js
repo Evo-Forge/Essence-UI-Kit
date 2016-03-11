@@ -21,7 +21,7 @@ class MateriableContact extends React.Component {
                       </Text>
                       <Block>
                         <Icon name={"social-person"} className={"e-text-grey-800"} />
-                        <Input type={'text'} name={'label'} label={'Input with label'}/>
+                        <Input type={'text'} name={'label'} label={'Your name'}/>
                       </Block>
                       <Block>
                         <Icon name={"communication-email"} className={"e-text-grey-800"} />
