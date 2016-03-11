@@ -26,6 +26,7 @@ class Materiable extends React.Component {
             <MateriableBlog />
             <MateriablePortfolio />
             <MateriableOther />
+						<MateriableContact />
             <MateriableFooter />
         	</Block>
         );
