@@ -37,40 +37,40 @@ class MateriableContact extends React.Component {
                       </Block>
                       <Block classes={'e-row'}>
                         <Block classes={'brick brick-6 e-text-right'}>
-                          <Text type={'a'} href={''} classes={' e-text-grey-700 e-text-uppercase e-body2'}>clear</Text>
+                          <Btn label={'Clear'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800'} />
                         </Block>
                         <Block classes={'brick brick-6 e-text-right'}>
-                          <Text type={'a'} href={''} classes={'e-text-indigo-600 e-text-uppercase e-body2'}>send message</Text>
+                          <Btn label={'Send message'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600'} />
                         </Block>
                       </Block>
                     </Block>
                     <Block classes={'brick brick-6'}>
+                      <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
+                        get social
+                      </Text>
+                      <Btn icon={'action-accessibility'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                      <Btn icon={'action-info-outline'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                      <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                      <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                      <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                      <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
                         <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
-                          get social
+                          contact info
                         </Text>
-                        <Btn icon={'action-accessibility'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                        <Btn icon={'action-info-outline'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                        <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                        <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                        <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                        <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
-                          <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
-                            contact info
-                          </Text>
-                          <Text type={'p'} classes={'e-text-left e-body1'}>
-                            Section 1.10.33 of de Finibus
-                            Bonorum et malorum sk
-                            9002 st.
-                          </Text>
-                          <Text type={'p'} classes={'e-text-left e-body1'}>
-                            +3321 1123 456227
-                          </Text>
-                          <Text type={'p'} classes={'e-text-left e-body1'}>
-                            +3321 1123 456227
-                          </Text>
-                        </Block>
-                        <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
-                        </Block>
+                        <Text type={'p'} classes={'e-text-left e-body1'}>
+                          Section 1.10.33 of de Finibus
+                          Bonorum et malorum sk
+                          9002 st.
+                        </Text>
+                        <Text type={'p'} classes={'e-text-left e-body1'}>
+                          +3321 1123 456227
+                        </Text>
+                        <Text type={'p'} classes={'e-text-left e-body1'}>
+                          +3321 1123 456227
+                        </Text>
+                      </Block>
+                      <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
+                      </Block>
                     </Block>
                   </Block>
                 </Paper>
