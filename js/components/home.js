@@ -23,7 +23,7 @@ class MateriableHome extends React.Component {
               {/*paper one*/}
 
               <Paper className={'main-one'}>
-                <Block className={'e-container e-padding-top-25 e-padding-bottom-25 flex-container'}>
+                <Block className={'e-container e-padding-top-50 e-padding-bottom-50 flex-container'}>
                     <Block className={'brick-4 adjust-brick-4-header'}>
                         <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2'}>
                             OUR SERVICE
@@ -32,7 +32,7 @@ class MateriableHome extends React.Component {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             </Text>
                     </Block>
-                    <Block className={'e-row flex-row e-margin-top-25'}>
+                    <Block className={'e-row flex-row e-margin-top-50'}>
                     <Block className={'brick-4 adjust-brick-4-middle '}>
                         <Block className={'radius-block e-text-center e-margin-bottom-15'}>
                             <Icon name={"editor-functions"} className={"e-text-blue-500"} />
@@ -43,7 +43,7 @@ class MateriableHome extends React.Component {
                         <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         </Text>
-                        <Text type={'a'} classes={'e-text-center e-button e-text-indigo-A400'}>MORE</Text>
+                        <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
                     </Block>
                     <Block className={'brick-4 adjust-brick-4-middle'}>
                         <Block className={'radius-block e-text-center e-margin-bottom-15'}>
@@ -55,7 +55,7 @@ class MateriableHome extends React.Component {
                         <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         </Text>
-                        <Text type={'a'} classes={'e-text-center e-button e-text-indigo-A400'}>MORE</Text>
+                        <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
                     </Block>
                     <Block className={'brick-4 adjust-brick-4-middle'}>
                         <Block className={'radius-block e-text-center e-margin-bottom-15'}>
@@ -67,7 +67,7 @@ class MateriableHome extends React.Component {
                         <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         </Text>
-                        <Text type={'a'} classes={'e-text-center e-button e-text-indigo-A400'}>MORE</Text>
+                        <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
                     </Block>
                     </Block>
                 </Block>
@@ -76,7 +76,7 @@ class MateriableHome extends React.Component {
               {/*block two*/}
 
               <Block className={'main-two'}>
-                <Block className={'e-container e-padding-top-25 e-padding-bottom-25 flex-container'}>
+                <Block className={'e-container e-padding-top-50 e-padding-bottom-50 flex-container'}>
                     <Block className={'brick-4 adjust-brick-4-header'}>
                     <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2'}>
                         LATEST POST
@@ -86,7 +86,7 @@ class MateriableHome extends React.Component {
                     </Text>
                     </Block>
 
-                    <Block className={'e-row flex-row e-margin-top-25'}>
+                    <Block className={'e-row flex-row e-margin-top-50'}>
                         <Block className={'brick-4 adjust-brick-4-articles '}>
                         <Block className={'top-article'}>
                             <Image src={'http://d1dzqwexhp5ztx.cloudfront.net/imageRepo/4/0/62/801/836/1a-012954_A.jpg'} alt={'Star Wars'} classes={'e-left'}/>
@@ -124,29 +124,21 @@ class MateriableHome extends React.Component {
                         </Block>
 
                         <Block className={'brick-4 adjust-brick-4-articles '}>
-                            <List type={'navigation'} classes={'e-twolinelist'}>
-                                <ListItem className={'top-list e-margin-bottom-15'}>
-                                    <Text type={'a'}>
-                                        <Image src={'http://d1dzqwexhp5ztx.cloudfront.net/imageRepo/4/0/62/801/836/1a-012954_A.jpg'} alt={'Star Wars'} classes={'e-left'}/>
-                                        <Block classes={'content e-left'}>
-                                            <Text classes={'primary'}>Steps of moving to self-employment</Text>
-                                            <Text classes={'secondary'}>Jan 9, 2016</Text>
-                                        </Block>
-                                    </Text>
-                                </ListItem>
-                                <Divider classes={'thin long adjust-long e-background-grey-500'} />
-                                <List type={'navigation'} classes={'e-twolinelist'}>
-                                    <ListItem>
-                                        <Text type={'a'}>
-                                            <Image src={'http://d1dzqwexhp5ztx.cloudfront.net/imageRepo/4/0/62/801/836/1a-012954_A.jpg'} alt={'Star Wars'} classes={'e-left'}/>
-                                            <Block classes={'content e-left'}>
-                                                <Text classes={'primary'}>10 Important Steps During Logo Designing</Text>
-                                                <Text classes={'secondary'}>Jan 9, 2016</Text>
-                                            </Block>
-                                        </Text>
-                                    </ListItem>
-                                </List>
-                            </List>
+                        <Block className={'top-article'}>
+                            <Image src={'http://d1dzqwexhp5ztx.cloudfront.net/imageRepo/4/0/62/801/836/1a-012954_A.jpg'} alt={'Star Wars'} classes={'e-left'}/>
+                            <Block classes={'contents e-padding-left-right-20-15'}>
+                                <Text classes={'first'}>Steps of moving to self-employment</Text>
+                                <Text classes={'second'}>Jan 9, 2016</Text>
+                            </Block>
+                        </Block>
+                            <Divider classes={'thin long adjust-long e-background-grey-500'} />
+                            <Block className={'bottom-article'}>
+                                <Image src={'http://d1dzqwexhp5ztx.cloudfront.net/imageRepo/4/0/62/801/836/1a-012954_A.jpg'} alt={'Star Wars'} classes={'e-left'}/>
+                                <Block classes={'contents'}>
+                                    <Text classes={'first'}>Steps of moving to self-employment</Text>
+                                    <Text classes={'second'}>Jan 9, 2016</Text>
+                                </Block>
+                            </Block>
                         </Block>
                     </Block>
                     <Btn label={'SEE MORE'} ripple={false} type={'primary'} className={'raised align-self-class e-margin-top-50'} />
@@ -155,112 +147,266 @@ class MateriableHome extends React.Component {
 
               {/*block three*/}
               <Block className={'main-three'}>
-                  <Block className={'e-container e-padding-top-25 e-padding-bottom-25 flex-container'}>
+                  <Block className={'e-container e-padding-top-50 e-padding-bottom-50 flex-container'}>
                       <Block className={'brick-4 adjust-brick-4-header'}>
                           <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2-paper'}>
-                              OUR SERVICE
+                              Latest Projects
                               </Text>
-                              <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-40 adjust-h5-paper'}>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                              <Text type={'h5'} classes={'e-text-center e-body2  adjust-h5-paper'}>
+                              Lorem ipsum dolor sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod diam, ante mi convallis
+                              maecenas turpis.
                               </Text>
                       </Block>
                       <Block className={'e-row adjust-e-row-paper e-margin-top-50'}>
-                        <Block className={'e-brick-4 adjust-e-brick-3'}>
+                        <Block className={'e-brick-4 adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
                                 </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-3'}>
+                        <Block className={'e-brick-4 adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
                                 </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-3'}>
+                        <Block className={'e-brick-4 adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
                                 </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-3'}>
+                        <Block className={'e-brick-4 adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
                                 </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-3'}>
+                        <Block className={'e-brick-4 adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
                                 </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-3'}>
+                        <Block className={'e-brick-4 adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
                                 </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-3'}>
+                        <Block className={'e-brick-4 adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
                                 </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-3'}>
+                        <Block className={'e-brick-4 adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
                                 </Paper>
                         </Block>
+                        <Btn label={'MORE WORK'} ripple={false} className={'raised e-background-pink-A200 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
+                        <Btn label={'CONTACT US'} ripple={false} className={'raised e-background-grey-800 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
                       </Block>
                  </Block>
               </Block>
 
-              {/*paper one*/}
+              {/*block four*/}
 
-              <Paper className={'main-one'}>
-                <Block className={'e-container e-padding-top-25 e-padding-bottom-25 flex-container'}>
+              <Block className={'main-four'}>
+                <Block className={'e-container e-padding-top-50 e-padding-bottom-50 flex-container'}>
                     <Block className={'brick-4 adjust-brick-4-header'}>
                         <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2'}>
                             OUR SERVICE
                             </Text>
-                            <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-40'}>
+                            <Text type={'h5'} classes={'e-text-center e-body2 '}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             </Text>
                     </Block>
-                    <Block className={'e-row flex-row e-margin-top-25'}>
+                    <Block className={'e-row flex-row e-margin-top-50'}>
                     <Block className={'brick-4 adjust-brick-4-middle '}>
-                        <Block className={'radius-block e-text-center e-margin-bottom-15'}>
-                            <Icon name={"editor-functions"} className={"e-text-blue-500"} />
+                        <Block className={'radius-block e-text-center e-margin-bottom-15 e-background-grey-500'}>
+                            <Icon name={"image-timer-auto"} className={"e-text-grey-200"} />
                         </Block>
                         <Text type={'h4'} classes={'e-text-center e-title'}>
-                            CLEAN MODERN CODE
+                            H.Rackham
+                        </Text>
+                        <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50 e-margin-bottom-15'}>
+                            Concept Strategist
                         </Text>
                         <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         </Text>
-                        <Text type={'a'} classes={'e-text-center e-button e-text-indigo-A400'}>MORE</Text>
+                        <Block>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"action-android"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"social-share"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"hardware-cast-connected"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"device-bluetooth-connected"} className={"e-text-grey-600"} /></Text>
+                        </Block>
+                        <Block>
+                            <Text type={'a'} classes={'e-text-center e-button e-text-grey-500 e-margin-right-25'}>HIRE ME</Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
+                        </Block>
                     </Block>
                     <Block className={'brick-4 adjust-brick-4-middle'}>
-                        <Block className={'radius-block e-text-center e-margin-bottom-15'}>
-                            <Icon name={"editor-functions"} className={"e-text-blue-500"} />
+                        <Block className={'radius-block e-text-center e-margin-bottom-15 e-background-grey-500'}>
+                            <Icon name={"image-timer-auto"} className={"e-text-grey-200"} />
                         </Block>
                         <Text type={'h4'} classes={'e-text-center e-title'}>
-                            CLEAN MODERN CODE
+                            leonardo J.Kem
+                        </Text>
+                        <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50 e-margin-bottom-15'}>
+                            Graphic Designer
                         </Text>
                         <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         </Text>
-                        <Text type={'a'} classes={'e-text-center e-button e-text-indigo-A400'}>MORE</Text>
+                        <Block>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"action-android"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"social-share"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"hardware-cast-connected"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"device-bluetooth-connected"} className={"e-text-grey-600"} /></Text>
+                        </Block>
+                        <Block>
+                            <Text type={'a'} classes={'e-text-center e-button e-text-grey-500 e-margin-right-25'}>HIRE ME</Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
+                        </Block>
                     </Block>
                     <Block className={'brick-4 adjust-brick-4-middle'}>
-                        <Block className={'radius-block e-text-center e-margin-bottom-15'}>
-                            <Icon name={"editor-functions"} className={"e-text-blue-500"} />
+                        <Block className={'radius-block e-text-center e-margin-bottom-15 e-background-grey-500'}>
+                            <Icon name={"image-timer-auto"} className={"e-text-grey-200"} />
                         </Block>
-                        <Text type={'h4'} classes={'e-text-center e-title'}>
-                            CLEAN MODERN CODE
-                        </Text>
-                        <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        </Text>
-                        <Text type={'a'} classes={'e-text-center e-button e-text-indigo-A400'}>MORE</Text>
+                            <Text type={'h4'} classes={'e-text-center e-title'}>
+                                Cicero poyment
+                            </Text>
+                            <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50 e-margin-bottom-15'}>
+                                Creative Director
+                            </Text>
+                            <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            </Text>
+                        <Block>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"action-android"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"social-share"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"hardware-cast-connected"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"device-bluetooth-connected"} className={"e-text-grey-600"} /></Text>
+                        </Block>
+                        <Block>
+                            <Text type={'a'} classes={'e-text-center e-button e-text-grey-500 e-margin-right-25'}>HIRE ME</Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
+                        </Block>
                     </Block>
                     </Block>
                 </Block>
-              </Paper>
+              </Block>
+
+              {/*block five*/}
+
+              <Block className={'main-five e-background-indigo-500'}>
+                <Block className={'e-container e-padding-top-50 e-padding-bottom-50 flex-container'}>
+                    <Block className={'brick-4 adjust-brick-4-header'}>
+                        <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2 e-text-white'}>
+                            OUR SERVICE
+                            </Text>
+                            <Text type={'h5'} classes={'e-text-center e-body2 e-text-white'}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            </Text>
+                    </Block>
+                    <Block className={'e-row flex-row e-margin-top-50'}>
+                    <Block className={'brick-4 adjust-brick-4-middle '}>
+                        <Block className={'icon-block e-text-center e-margin-top-25 e-background-indigo-500'}>
+                            <Icon name={"device-now-wallpaper"} className={"e-text-white"} />
+                        </Block>
+                        <Text type={'h3'} classes={'e-text-center e-display-4 e-padding-left-right-50 e-text-white'}>
+                            0200
+                        </Text>
+                        <Text type={'h4'} classes={'e-text-center e-title e-text-white'}>
+                            H.Rackham
+                        </Text>
+                        <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50 e-text-white'}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </Text>
+                    </Block>
+                    <Block className={'brick-4 adjust-brick-4-middle'}>
+                        <Block className={'icon-block e-text-center e-margin-top-25 e-background-indigo-500'}>
+                            <Icon name={"maps-local-cafe"} className={"e-text-white"} />
+                        </Block>
+                        <Text type={'h3'} classes={'e-text-center e-display-4 e-padding-left-right-50 e-text-white'}>
+                            2223
+                        </Text>
+                        <Text type={'h4'} classes={'e-text-center e-title e-text-white'}>
+                            leonardo J.Kem
+                        </Text>
+                        <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50 e-text-white'}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </Text>
+                    </Block>
+                    <Block className={'brick-4 adjust-brick-4-middle'}>
+                        <Block className={'icon-block e-text-center e-margin-top-25 e-background-indigo-500'}>
+                            <Icon name={"action-subject"} className={"e-text-white"} />
+                        </Block>
+                            <Text type={'h3'} classes={'e-text-center e-display-4 e-padding-left-right-50 e-text-white'}>
+                                3022
+                            </Text>
+                            <Text type={'h4'} classes={'e-text-center e-title e-text-white'}>
+                                Cicero poyment
+                            </Text>
+
+                            <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50 e-text-white'}>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            </Text>
+                    </Block>
+                    </Block>
+                </Block>
+              </Block>
+
+              {/*block six*/}
+
+              <Block className={'main-six e-background-light-blue-A400'}>
+                <Block className={'e-container e-padding-top-50 e-padding-bottom-50 flex-container'}>
+                        <Block className={'brick-4 adjust-brick-4-header e-margin-bottom-50'}>
+                            <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2 e-text-white'}>
+                                OUR SERVICE
+                                </Text>
+                                <Text type={'h5'} classes={'e-text-center e-body2 e-text-white'}>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                </Text>
+                        </Block>
+                        <Block className={'adjust-white-block'}>
+                            <Block className={'e-background-white adjust-block-six-content e-margin-bottom-15'}>
+                                <Text classes={'e-text-grey-600'}>
+                                    <Text type={'a'} classes={'e-text-center e-text-light-blue-A400'}>@Toriom </Text>Lorem ipsum dolor sit amet,
+                                     vitae erat, libero neque vehicula, eius aliquam donec euismod diam, ante mi convallis maecenas turpis,
+                                      sit feugiat parturient tristique et fermentum.<Text type={'a'} classes={'e-text-center e-text-grey-600'}> #theme</Text>
+                                </Text>
+
+                            </Block>
+                            <Text className={'e-text-white adjust-time-post'}>
+                                <Icon name={"device-access-time"} className={"e-text-white"} /> 15 minutes ago
+                            </Text>
+                        </Block>
+                        <Block className={'adjust-white-block'}>
+                            <Block className={'e-background-white adjust-block-six-content e-margin-bottom-15'}>
+                                <Text classes={'e-text-grey-600'}>
+                                    <Text type={'a'} classes={'e-text-center e-text-light-blue-A400'}>@Toriom </Text>Lorem ipsum dolor sit amet,
+                                     vitae erat, libero neque vehicula, eius aliquam donec euismod diam, ante mi convallis maecenas turpis,
+                                      sit feugiat parturient tristique et fermentum.<Text type={'a'} classes={'e-text-center e-text-grey-600'}> #theme</Text>
+                                </Text>
+
+                            </Block>
+                            <Text className={'e-text-white adjust-time-post'}>
+                                <Icon name={"device-access-time"} className={"e-text-white"} /> 15 minutes ago
+                            </Text>
+                        </Block>
+                        <Text type={'a'} className={'twit-font-size e-margin-top-25'}><Icon name={"social-share"} className={"e-text-blue-100"} /></Text>
+                </Block>
+              </Block>
+
+               {/*block seven*/}
+
+               {/*block eight*/}
+
+               <Block className={'main-eight e-background-grey-800'}>
+                 <Block className={'e-container e-padding-top-50 e-padding-bottom-50 flex-container'}>
+                         <Text type={'h1'} classes={'e-text-center e-display-3 adjust-h1-header e-margin-bottom-40'}>
+                             meet yur new materiable theme
+                         </Text>
+                         <Btn label={'BUY THEME'} ripple={false} className={'raised e-background-pink-A200 e-margin-top-25 adjust-buy-button e-text-white'} />
+                 </Block>
+               </Block>
 
             </Block>
         );
