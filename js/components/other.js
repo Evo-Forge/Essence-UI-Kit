@@ -73,11 +73,11 @@ class MateriableOther extends React.Component {
         return (
           <Block className={'materiables-other'}>
             <Block className={'header-bg e-background-indigo-500'}>
-              <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'fab'} className={'fab e-text-white hide-fab e-btn-fab adjust-fab-header e-background-pink-A200'} />
+              {/* <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'fab'} className={'fab e-text-white hide-fab e-btn-fab adjust-fab-header e-background-pink-A200'} /> */}
             </Block>
             <Block className={'main-bg e-background-grey-100'}>
               <Block className={'e-container '}>
-                <Paper className={'padding-50 e-background-white negative-margin'}>
+                <Paper className={'padding-50 e-background-white negative-margin container'}>
                   <Text type={'h2'} classes={'e-text-left e-text-grey-400 e-text-uppercase e-display-1'}>
                     headings
                   </Text>
