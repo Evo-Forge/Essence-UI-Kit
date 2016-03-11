@@ -63,7 +63,7 @@ class MateriablePortfolio extends React.Component {
                               </List>
                             </Block>
                           </Block>
-                      </Block>{/* end img-container */}
+                      </Block>{/* end .img-container */}
                       <Block className={'img-container e-no-margin e-no-padding'}>
                           <Image src={'../assets/img/tiger.jpg'} />
                           <Block className={'layer e-background-indigo-A400'}></Block>
@@ -84,7 +84,7 @@ class MateriablePortfolio extends React.Component {
                               </List>
                             </Block>
                           </Block>
-                      </Block>{/* end img-container */}
+                      </Block>{/* end .img-container */}
                       <Block className={'img-container e-no-margin e-no-padding'}>
                           <Image src={'../assets/img/tiger.jpg'} />
                           <Block className={'layer e-background-indigo-A400'}></Block>
@@ -105,8 +105,8 @@ class MateriablePortfolio extends React.Component {
                               </List>
                             </Block>
                           </Block>
-                      </Block>{/* end img-container */}
-                    </Block>{/*end left-col*/}
+                      </Block>{/* end .img-container */}
+                    </Block>{/*end .left-col*/}
 
                     <Block className={'right-col'}>
                       <Block className={'img-container e-no-margin e-no-padding'}>
@@ -129,7 +129,7 @@ class MateriablePortfolio extends React.Component {
                               </List>
                             </Block>
                           </Block>
-                      </Block>{/* end img-container */}
+                      </Block>{/* end .img-container */}
 
                       <Block className={'img-container e-no-margin e-no-padding active'}>
                           <Image src={'../assets/img/tiger.jpg'} />
@@ -151,9 +151,9 @@ class MateriablePortfolio extends React.Component {
                               </List>
                             </Block>
                           </Block>
-                      </Block>{/* end img-container */}
-                    </Block>{/*end right-col*/}
-                  </Block>{/*end top-row*/}
+                      </Block>{/* end .img-container */}
+                    </Block>{/*end .right-col*/}
+                  </Block>{/*end .top-row*/}
 
                   <Block className={'bottom-row'}>
                     <Block className={'img-container e-no-margin e-no-padding'}>
@@ -176,9 +176,9 @@ class MateriablePortfolio extends React.Component {
                             </List>
                           </Block>
                         </Block>
-                    </Block>{/* end img-container */}
-                  </Block>{/*end bottom-row*/}
-                </Block>{/* left column end */}
+                    </Block>{/* end .img-container */}
+                  </Block>{/*end .bottom-row*/}
+                </Block>{/*end .left-column */}
                 <Block className={'right-column'}>
                   <Block className={'img-container e-no-margin e-no-padding'}>
                       <Image src={'../assets/img/lemon.jpg'} />
@@ -201,7 +201,7 @@ class MateriablePortfolio extends React.Component {
                         </Block>
 
                       </Block>
-                  </Block>
+                  </Block>{/* end .img-container */}
 
                   <Block className={'img-container e-no-margin e-no-padding'}>
                       <Image src={'../assets/img/lemon.jpg'} />
@@ -223,7 +223,7 @@ class MateriablePortfolio extends React.Component {
                           </List>
                         </Block>
                       </Block>
-                  </Block>
+                  </Block>{/* end .img-container */}
 
                   <Block className={'img-container e-no-margin e-no-padding'}>
                       <Image src={'../assets/img/lemon.jpg'} />
@@ -246,8 +246,11 @@ class MateriablePortfolio extends React.Component {
                         </Block>
 
                       </Block>
-                  </Block>
-                </Block> {/* right column end */}
+                  </Block>{/* end .img-container */}
+                </Block> {/*end .right-column*/}
+
+                {/* Here is a Listed Portfolio Style example.
+                  Just delete .left-column and .right-column containers from above.*/}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/ara.jpg'} />
@@ -269,7 +272,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -291,7 +294,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box active'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -313,7 +316,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/ara.jpg'} />
@@ -335,7 +338,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -357,7 +360,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -379,7 +382,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/lemon.jpg'} />
@@ -401,7 +404,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -423,7 +426,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -445,7 +448,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -467,7 +470,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -489,7 +492,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/ara.jpg'} />
@@ -511,7 +514,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -533,7 +536,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/lemon.jpg'} />
@@ -555,7 +558,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -577,7 +580,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -599,7 +602,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/tiger.jpg'} />
@@ -621,7 +624,7 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
 
                 <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
                     <Image src={'../assets/img/lemon.jpg'} />
@@ -643,7 +646,9 @@ class MateriablePortfolio extends React.Component {
                         </List>
                       </Block>
                     </Block>
-                </Block>{/* end img-container */}
+                </Block>{/* end .img-container */}
+
+                {/*end Listed Potfolio Style example */}
 
                 <Block className={'load-more'}>
                   <Icon name={"navigation-refresh"} className={"e-text-grey-400"} />
