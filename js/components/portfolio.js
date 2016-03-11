@@ -222,7 +222,6 @@ class MateriablePortfolio extends React.Component {
                             </ListItem>
                           </List>
                         </Block>
-
                       </Block>
                   </Block>
 
@@ -249,6 +248,402 @@ class MateriablePortfolio extends React.Component {
                       </Block>
                   </Block>
                 </Block> {/* right column end */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/ara.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box active'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/ara.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/lemon.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/ara.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/lemon.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/tiger.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
+
+                <Block className={'img-container e-no-margin e-no-padding fixed-box'}>
+                    <Image src={'../assets/img/lemon.jpg'} />
+                    <Block className={'layer e-background-indigo-A400'}></Block>
+                    <Block className={'text-container'}>
+                      <Text type={'span'} classes={'e-text-left e-title e-text-white'}>
+                        Steps of moving to self-employment
+                      </Text>
+                      <Block>
+                        <List type={'inline'}>
+                          <ListItem>
+                            <Icon name={"action-perm-identity"} className={"e-text-white"} />
+                            <Text type={'small'}>By: Razvan M.</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Icon name={"av-album"} className={"e-text-white"} />
+                            <Text type={'small'}>March 10, 2016</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                    </Block>
+                </Block>{/* end img-container */}
 
                 <Block className={'load-more'}>
                   <Icon name={"navigation-refresh"} className={"e-text-grey-400"} />

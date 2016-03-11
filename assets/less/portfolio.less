@@ -10,7 +10,8 @@
     align-items: center;
     justify-content: flex-end;
     .container {
-      width: 1200px;
+      max-width: 1200px;
+      width: 100%;
       li {
         line-height: 50px;
         border-bottom: 2px solid transparent;
@@ -35,6 +36,14 @@
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
+    .fixed-box {
+      width: 287.5px;
+      max-width: 287.5px;
+      min-width: 287.5px;
+      height: 287.5px;
+      max-height: 287.5px;
+      min-height: 287.5px;
+    }
     .img-container {
       cursor: pointer;
       position: relative;
@@ -81,7 +90,7 @@
           -webkit-transition: opacity .3s ease-in-out;
         }
       }
-    }
+    }//end image container
   } //end portfolio-container
   .left-column {
     width: 80%;
