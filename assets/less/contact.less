@@ -21,12 +21,21 @@
     width: 100%;
     box-sizing: border-box;
   }
-}
-
-@media (max-width: 1560px) {
-  .main-bg {
-    .fab {
-      display: none;
-    }
+  .floating-label {
+    top: -40px!important;
   }
+  .e-input-group {
+    display: inline-block;
+    width: 90%;
+  }
+  .e-input:not(.empty)~.floating-label {
+    top: -60px!important;
+  }
+}
+ @media (max-width: 1120px) {
+   .materiables-contact {
+     .contact-info {
+       width: 100%;
+     }
+   }
 }
