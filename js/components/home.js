@@ -158,45 +158,77 @@ class MateriableHome extends React.Component {
                               </Text>
                       </Block>
                       <Block className={'e-row adjust-e-row-paper e-margin-top-50'}>
-                        <Block className={'e-brick-4 adjust-e-brick-4'}>
+                        <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
-                                </Paper>
+                                <Block className={'layer e-background-indigo-A400'}></Block>
+                                <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
+                                  sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
+                                </Text>
+                            </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-4'}>
+                        <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
-                                </Paper>
+                                <Image src='https://monicapoenariu.files.wordpress.com/2015/03/spring-summer-2015.png?w=290'/>
+                                <Block className={'layer e-background-indigo-A400'}></Block>
+                                    <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
+                                      sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
+                                </Text>
+                            </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-4'}>
+                        <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
-                                </Paper>
+                                <Image src='https://lh5.googleusercontent.com/-8-zAswZZT8Y/AAAAAAAAAAI/AAAAAAAAAAw/rsGVnQ6WSzo/photo.jpg'/>
+                                <Block className={'layer e-background-indigo-A400'}></Block>
+                                    <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
+                                      sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
+                                </Text>
+                            </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-4'}>
+                        <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
-                                </Paper>
+                                <Image src='https://lh5.googleusercontent.com/-Zw4IdXBykhc/AAAAAAAAAAI/AAAAAAAAGl0/JEhKLec9gyo/photo.jpg'/>
+                                <Block className={'layer e-background-indigo-A400'}></Block>
+                                    <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
+                                      sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
+                                </Text>
+                            </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-4'}>
+                        <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
-                                </Paper>
+                                <Image src='http://static.bhphotovideo.com/explora/sites/default/files/cs-aurora.jpg'/>
+                                <Block className={'layer e-background-indigo-A400'}></Block>
+                                    <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
+                                      sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
+                                </Text>
+                            </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-4'}>
+                        <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
                                 <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
-                                </Paper>
+                                <Block className={'layer e-background-indigo-A400'}></Block>
+                                    <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
+                                      sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
+                                </Text>
+                            </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-4'}>
+                        <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
-                                </Paper>
+                                <Image src='http://static.bhphotovideo.com/explora/sites/default/files/cs-aurora.jpg'/>
+                                <Block className={'layer e-background-indigo-A400'}></Block>
+                                    <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
+                                      sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
+                                </Text>
+                            </Paper>
                         </Block>
-                        <Block className={'e-brick-4 adjust-e-brick-4'}>
+                        <Block className={'fix-photo adjust-e-brick-4'}>
                             <Paper className={'e-text-indigo-400 e-background-white adjust-height' }>
-                                <Image src='https://lh5.googleusercontent.com/-N3pGPW0MCdc/AAAAAAAAAAI/AAAAAAAADAY/-QnH-44a7wU/photo.jpg'/>
-                                </Paper>
+                                <Image src='https://lh5.googleusercontent.com/-8-zAswZZT8Y/AAAAAAAAAAI/AAAAAAAAAAw/rsGVnQ6WSzo/photo.jpg'/>
+                                <Block className={'layer e-background-indigo-A400'}></Block>
+                                    <Text type={'h5'} classes={'e-body2 e-text-white adjust-h-onImage'}>
+                                      sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod
+                                </Text>
+                            </Paper>
                         </Block>
                         <Btn label={'MORE WORK'} ripple={false} className={'raised e-background-pink-A200 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
                         <Btn label={'CONTACT US'} ripple={false} className={'raised e-background-grey-800 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
