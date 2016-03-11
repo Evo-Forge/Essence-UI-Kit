@@ -1,38 +1,38 @@
-.materiables-other {
+.add-border(@color) {
+  border: 1px solid @color;
+}
+.materiables-about {
+  .header-bg {
+    height: 150px;
+  }
   .container {
     width: 100%;
     max-width: 1200px;
     box-sizing: border-box;
-  }
-  .header-bg {
-    height: 150px;
-  }
-  .padding-50 {
     padding: 50px;
-  }
-  .negative-margin {
     margin-top: -100px;
     margin-bottom: 50px;
   }
-  .left-border {
-    border-left: 2px solid grey;
+  .flex-row {
+    display: flex;
+    justify-content: space-around;
   }
-  .length-small {
-    max-width: 60%;
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    line-height: normal;
   }
-  .e-padding-left-25 {
-    padding-left: 25px;
+  .radius-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 65px;
   }
-  .adjust-fab-header {
-    position: absolute;
-    right: 100px;
-    top: 170px;
-  }
-}
-@media (max-width: 1560px) {
-  .header-bg {
-    .hide-fab {
-      display: none;
-    }
-  }
+
 }
