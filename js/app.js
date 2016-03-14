@@ -14,8 +14,9 @@ import MateriableBlog from './components/blog';
 import MateriablePortfolio from './components/portfolio';
 import MateriableOther from './components/other';
 import MateriableContact from './components/contact';
+import MateriableError from './components/error';
+import MateriableSoon from './components/soon';
 import MateriableFooter from './components/footer';
-import MateriableError from './components/Error';
 
 
 class Materiable extends React.Component {
@@ -28,8 +29,9 @@ class Materiable extends React.Component {
             <MateriablePortfolio />
             <MateriableOther />
 						<MateriableContact />
-            <MateriableFooter />
 						<MateriableError />
+						<MateriableSoon />
+            <MateriableFooter />
         	</Block>
         );
     }
