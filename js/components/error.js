@@ -20,7 +20,7 @@ class MateriableError extends React.Component {
             </Text>
             <Btn label={'Back home'} ripple={true} type={'primary'} className={'flat e-background-blue-600'} />
             <Btn label={'Contact us'} ripple={true} type={'primary'} className={'flat e-background-blue-700'} />
-            <Block type={'footer'}>
+            <Block classes={'e-padding-top-200'}>
               <Btn icon={"action-account-circle"} type={'flat'} className={"flat e-text-grey-500 e-background-indigo-500 e-headline"} />
               <Btn icon={"action-group-work"} type={'flat'} className={"flat e-text-grey-500 e-background-indigo-500 e-headline"} />
               <Btn icon={"action-perm-phone-msg"} className={"flat e-text-grey-500 e-background-indigo-500 e-headline"} />
