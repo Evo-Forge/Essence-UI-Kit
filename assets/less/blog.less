@@ -1,3 +1,6 @@
+.add-border(@color) {
+  border: 1px solid @color;
+}
 .materiable-blog {
   .top-blog {
   	width: 100%;
@@ -8,7 +11,7 @@
   	background-color: inherit;
   }
   .border {
-  	border: 1px solid red;
+  	border: 1px solid #E8E8E8;
   }
   .no-margin-bottom {
   	margin-bottom: 0;
@@ -49,5 +52,12 @@
   }
   .diveder-float {
     clear: both;
+  }
+
+  .post-container {
+    .add-border(blue);
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 40px 10px;
   }
 }

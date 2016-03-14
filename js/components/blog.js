@@ -328,7 +328,7 @@ class MateriableBlog extends React.Component {
           </Block>
       		<Block className={'e-container go-top'}>
             <Block className={'e-row'}>
-              <Block classes={'brick brick-4 border tab-display'}>
+              <Block classes={'brick brick-4 tab-display'}>
                 <Block className={'align-blog-p e-text-right'}>
                   <Text type={'h1'} classes={'e-text-white no-margin-bottom'}>Materiable
                   </Text>
@@ -341,9 +341,12 @@ class MateriableBlog extends React.Component {
                   indicator={'e-background-red-500'}/>
               </Block>
               <Block classes={'brick brick-8 e-background-white border'}>
+
+
                 <Block>
                   <Image src={'http://www.hostingpolice.com/wp-content/uploads/2015/11/Hosting-Metallic-CLEAR-400x150px-CRP-WEB-PNG8-NOINF.png'} className={'image-replacer'}/>
                 </Block>
+
                 <Block>
                   <Text type={'h1'} classes={'e-headline'}>Featured image post
                   </Text>
@@ -380,6 +383,12 @@ class MateriableBlog extends React.Component {
                   </Block>
                   <Divider classes={'thin e-background-grey-300 e-margin-top-15 diveder-float'} />
                 </Block>
+
+                <Block className={'post-container'}>
+                  <Divider classes={'thin e-background-grey-300 e-margin-top-15 diveder-float'} />
+                </Block>{/*end .post-container*/}
+
+
               </Block>
             </Block>
   				</Block>
