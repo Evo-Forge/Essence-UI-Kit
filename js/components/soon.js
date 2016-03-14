@@ -9,7 +9,7 @@ class MateriableSoon extends React.Component {
         return (
         <Block classes={'materiables-soon e-background-indigo-500'}>
       		<Block className={'e-container e-text-center'}>
-            <Image src={'http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/compass-icon.png'} height={'150px'} />
+            <Image src={'http://icons.iconarchive.com/icons/icons8/ios7/128/Maps-Compas-icon.png'} />
             <Text type={'h1'} classes={'e-text-center e-text-white e-display-3'}>
               meet your new materiable theme
             </Text>
@@ -52,7 +52,7 @@ class MateriableSoon extends React.Component {
               <Block classes={'brick brick-4 e-text-left e-padding-top-50'}>
                 <Btn label={'subscribe now'} ripple={true} type={'primary'} className={'flat e-background-pink-300 e-text-white'} />
               </Block>
-              <Block classes={'e-row'}>
+              <Block classes={'e-row e-padding-top-50'}>
                 <Btn icon={"action-account-circle"} type={'flat'} className={"flat e-text-grey-500 e-background-indigo-500 e-headline"} />
                 <Btn icon={"action-group-work"} type={'flat'} className={"flat e-text-grey-500 e-background-indigo-500 e-headline"} />
                 <Btn icon={"action-perm-phone-msg"} className={"flat e-text-grey-500 e-background-indigo-500 e-headline"} />
