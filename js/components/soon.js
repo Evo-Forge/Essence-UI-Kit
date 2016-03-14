@@ -44,7 +44,7 @@ class MateriableSoon extends React.Component {
             <Block classes={'brick brick-2'}>
             </Block>
             <Block classes={'brick brick-12'}>
-              <Block classes={'brick brick-2 e-padding-top-50'}>
+              <Block classes={'brick brick-2'}>
               </Block>
               <Block classes={'brick brick-6 e-text-right e-padding-top-50'}>
                 <Input type={'email'} name={'label'} label={'Email address'} classes={'e-text-white'}/>
