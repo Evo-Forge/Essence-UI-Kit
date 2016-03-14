@@ -1,7 +1,7 @@
 import React from 'react';
 import ClassNames from 'classnames';
 
-import {Btn, AppBar, Block, Divider, Icon, Image, Text, Utils, Menu, List, ListItem, Paper} from 'react-essence';
+import {Btn, AppBar, Block, Divider, Icon, Image, Input, Text, Utils, Menu, List, ListItem, Paper} from 'react-essence';
 
 class MateriableHome extends React.Component {
 
@@ -16,6 +16,14 @@ class MateriableHome extends React.Component {
                   <Block>
                       <Btn label={'BUY THEME'} ripple={true} type={'primary'} className={'raised e-margin-bottom-50 e-padding-left-right-20'} />
                       <Btn label={'CONTACT US'} ripple={true} type={'primary'} className={'raised e-margin-bottom-25 e-background-indigo-600'} />
+                  </Block>
+                  <Block className={'buttons-for-slider'}>
+                    <ul className={'slider'}>
+                        <li></li>
+                        <li></li>
+                        <li className={'selected'}></li>
+                        <li></li>
+                    </ul>
                   </Block>
                   <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'primary'} className={'fab-mini e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />
               </Block>
@@ -428,6 +436,73 @@ class MateriableHome extends React.Component {
               </Block>
 
                {/*block seven*/}
+
+               <Block className={'main-seven e-background-indigo-A200'}>
+                 <Block className={'e-container'}>
+                   <Paper className={'e-margin-top-50 padding-50 e-background-white container'}>
+                     <Block classes={'e-row'}>
+                       <Block classes={'brick brick-6'}>
+                         <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
+                           send a message
+                         </Text>
+                         <Block>
+                           <Icon name={"social-person"} className={"e-text-grey-800"} />
+                           <Input type={'text'} name={'label'} label={'Input with label'}/>
+                         </Block>
+                         <Block>
+                           <Icon name={"communication-email"} className={"e-text-grey-800"} />
+                           <Input type={'email'} name={'label'} label={'Your email'}/>
+                         </Block>
+                         <Block>
+                           <Icon name={"social-whatshot"} className={"e-text-grey-800"} />
+                           <Input type={'text'} name={'label'} label={'Your job'}/>
+                         </Block>
+                         <Block>
+                           <Icon name={"communication-messenger"} className={"e-text-grey-800"} />
+                           <Input type={'text'} name={'label'} label={'Your message'}/>
+                         </Block>
+                         <Block classes={'e-row'}>
+                           <Block classes={'brick brick-6 e-text-right'}>
+                             <Text type={'a'} href={''} classes={' e-text-grey-700 e-text-uppercase e-body2'}>clear</Text>
+                           </Block>
+                           <Block classes={'brick brick-6 e-text-right'}>
+                             <Text type={'a'} href={''} classes={'e-text-indigo-600 e-text-uppercase e-body2'}>send message</Text>
+                           </Block>
+                         </Block>
+                       </Block>
+                       <Block classes={'brick brick-6'}>
+                           <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
+                             get social
+                           </Text>
+                           <Btn icon={'action-accessibility'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                           <Btn icon={'action-info-outline'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                           <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                           <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                           <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                           <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
+                             <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
+                               contact info
+                             </Text>
+                             <Text type={'p'} classes={'e-text-left e-body1'}>
+                               Section 1.10.33 of de Finibus
+                               Bonorum et malorum sk
+                               9002 st.
+                             </Text>
+                             <Text type={'p'} classes={'e-text-left e-body1'}>
+                               +3321 1123 456227
+                             </Text>
+                             <Text type={'p'} classes={'e-text-left e-body1'}>
+                               +3321 1123 456227
+                             </Text>
+                           </Block>
+                           <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
+                           </Block>
+                       </Block>
+                     </Block>
+                   </Paper>
+                 </Block>
+                 {/*<Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'fab'} className={'fab e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />*/}
+               </Block>
 
                {/*block eight*/}
 
