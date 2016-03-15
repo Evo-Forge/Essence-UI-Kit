@@ -16,6 +16,74 @@
   .flex-row {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    .flex-item {
+      width: 50%;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      box-sizing: border-box;
+      h2 {
+        width: 100%;
+      }
+      p {
+        width: 50%;
+        box-sizing: border-box;
+        span {
+          display: block;
+        }
+      }
+      &.full-width {
+        width: 100%;
+      }
+      &:first-child {
+        padding-right: 10px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        p {
+          width: 100%;
+        }
+      }
+      &:nth-child(2) {
+        padding-left: 10px;
+      }
+      &:last-child {
+        div {
+          width: 50%;
+          box-sizing: border-box;
+          line-height: normal;
+        }
+        span {
+          display: inline;
+        }
+        p {
+          margin: 0;
+          width: 100%;
+          a {
+            text-decoration: underline;
+          }
+          &.p-grey {
+            padding: 20px 40px;
+          }
+          &.p-time {
+            padding-left: 30px;
+          }
+        }
+        .text-underline {
+          text-decoration: underline;
+        }
+        .padding-right {
+          padding-right: 10px;
+        }
+        .padding-left {
+          padding-left: 10px;
+        }
+      }
+    }
+
   }
   .flex-container {
     display: flex;
