@@ -370,16 +370,22 @@ class MateriableBlog extends React.Component {
                           <ListItem>
                             <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
                           </ListItem>
-                          <ListItem>
+                          <ListItem className={'share-link'}>
                             <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
                               <Icon name={"content-reply"} className={"e-text-orange-A700"} />
-                              Share</Text>
+                              Share
+                            </Text>
                           </ListItem>
                         </List>
                       </Block>
-                      <Text type={'a'} href={'#'} className={'favorite'}>
-                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
-                      </Text>
+                      <Block className={'icons-container'}>
+                        <Text type={'a'} href={'#'} className={'share-icon'}>
+                          <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                        </Text>
+                        <Text type={'a'} href={'#'}>
+                          <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                        </Text>
+                      </Block>
                     </Block>
                   </Block>
                   <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
@@ -411,16 +417,22 @@ class MateriableBlog extends React.Component {
                           <ListItem>
                             <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
                           </ListItem>
-                          <ListItem>
+                          <ListItem className={'share-link'}>
                             <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
                               <Icon name={"content-reply"} className={"e-text-orange-A700"} />
-                              Share</Text>
+                              Share
+                            </Text>
                           </ListItem>
                         </List>
                       </Block>
-                      <Text type={'a'} href={'#'} className={'favorite'}>
-                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
-                      </Text>
+                      <Block className={'icons-container'}>
+                        <Text type={'a'} href={'#'} className={'share-icon'}>
+                          <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                        </Text>
+                        <Text type={'a'} href={'#'}>
+                          <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                        </Text>
+                      </Block>
                     </Block>
                   </Block>
                   <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
@@ -452,16 +464,22 @@ class MateriableBlog extends React.Component {
                           <ListItem>
                             <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
                           </ListItem>
-                          <ListItem>
+                          <ListItem className={'share-link'}>
                             <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
                               <Icon name={"content-reply"} className={"e-text-orange-A700"} />
-                              Share</Text>
+                              Share
+                            </Text>
                           </ListItem>
                         </List>
                       </Block>
-                      <Text type={'a'} href={'#'} className={'favorite'}>
-                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
-                      </Text>
+                      <Block className={'icons-container'}>
+                        <Text type={'a'} href={'#'} className={'share-icon'}>
+                          <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                        </Text>
+                        <Text type={'a'} href={'#'}>
+                          <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                        </Text>
+                      </Block>
                     </Block>
                   </Block>
                   <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
@@ -493,16 +511,22 @@ class MateriableBlog extends React.Component {
                           <ListItem>
                             <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
                           </ListItem>
-                          <ListItem>
+                          <ListItem className={'share-link'}>
                             <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
                               <Icon name={"content-reply"} className={"e-text-orange-A700"} />
-                              Share</Text>
+                              Share
+                            </Text>
                           </ListItem>
                         </List>
                       </Block>
-                      <Text type={'a'} href={'#'} className={'favorite'}>
-                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
-                      </Text>
+                      <Block className={'icons-container'}>
+                        <Text type={'a'} href={'#'} className={'share-icon'}>
+                          <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                        </Text>
+                        <Text type={'a'} href={'#'}>
+                          <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                        </Text>
+                      </Block>
                     </Block>
                   </Block>
                   <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
@@ -534,16 +558,22 @@ class MateriableBlog extends React.Component {
                           <ListItem>
                             <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
                           </ListItem>
-                          <ListItem>
+                          <ListItem className={'share-link'}>
                             <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
                               <Icon name={"content-reply"} className={"e-text-orange-A700"} />
-                              Share</Text>
+                              Share
+                            </Text>
                           </ListItem>
                         </List>
                       </Block>
-                      <Text type={'a'} href={'#'} className={'favorite'}>
-                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
-                      </Text>
+                      <Block className={'icons-container'}>
+                        <Text type={'a'} href={'#'} className={'share-icon'}>
+                          <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                        </Text>
+                        <Text type={'a'} href={'#'}>
+                          <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                        </Text>
+                      </Block>
                     </Block>
                   </Block>
                   <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
