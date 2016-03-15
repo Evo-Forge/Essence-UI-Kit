@@ -144,7 +144,7 @@ class MateriableBlog extends React.Component {
     render() {
         return (
 
-          <Block className={'materiable-blog'}>
+          <Block className={'materiable-blog e-background-grey-200'}>
                     <Block classes='top-blog e-background-indigo-500'>
                     </Block>
                 		<Block className={'e-container go-top'}>
