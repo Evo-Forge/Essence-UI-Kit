@@ -149,7 +149,7 @@ class MateriableBlog extends React.Component {
                     </Block>
                 		<Block className={'e-container go-top'}>
                       <Block className={'e-row'}>
-                        <Block classes={'brick brick-4 border tab-display'}>
+                        <Block classes={'brick brick-4 tab-display'}>
                             <Block className={'align-blog-p e-text-right'}>
                               <Text type={'h1'} classes={'e-text-white no-margin-bottom'}>Materiable
                               </Text>
@@ -158,22 +158,23 @@ class MateriableBlog extends React.Component {
                             </Block>
                             <Tab
                             data={tabs}
-                            classes={'e-background-indigo-500 e-text-grey-500 e-text-left e-caption nav-no-padding'}
+                            classes={'e-background-indigo-500 e-text-grey-500 e-text-left e-caption adjust-margin-card nav-no-padding'}
                             indicator={'e-background-red-500'}/>
 
-                            <Card classNames={'e-text-left adjust-margin-card'}>
+                            <Card className={'adjust-margin-card'}>
                               <CardHeader>
-                              <Text type={'h2'} classes={'e-text-uppercase e-title'}> Latest Conmments </Text>
+                                <Text type={'h2'} classes={'e-text-uppercase e-title'}>LATEST COMMENTS </Text>
                               </CardHeader>
                               <CardContent>
-                                <Block>
-                                  <Text type={'p'} classes={'e-subhead'}>
-                                    <Text type={'a'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
-                                  commented on
-                                  </Text>
-                                  <Text type={'p'} classes={'e-text-grey-800 e-body2'}>Lorem ipsum dolor sit amet
-                                  </Text>
-                                  <Block classes={'e-background-grey-200 bl-padding'}>
+                              <List type={'navigation'} classes={'e-twolinelist'}>
+                                <ListItem>
+                                <Text type={'p'} classes={'e-subhead'}>
+                                   <Text type={'a'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
+                                 commented on
+                                 </Text>
+                                 <Text type={'p'} classes={'e-text-grey-800 e-body2'}>Lorem ipsum dolor sit amet
+                                 </Text>
+                                 <Block classes={'e-background-grey-200 bl-padding'}>
                                     <Text type={'span'} classes={'e-text-center e-caption'}>
                                       Lorem ipsum dolor sit amet, eum altera putent eleifend ut. Est an facer graeco nominavi.
                                     </Text>
@@ -181,16 +182,16 @@ class MateriableBlog extends React.Component {
                                   <Text type={'span'} classes={'e-text-center e-caption'}>
                                     <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
                                     15 minutes ago</Text>
-                                  <Divider classes={'thinnest e-background-grey-200'} />
-                                </Block>
-                                <Block>
-                                  <Text type={'p'} classes={'e-subhead'}>
-                                    <Text type={'a'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
-                                  commented on
-                                  </Text>
-                                  <Text type={'p'} classes={'e-text-grey-800 e-body2'}>Lorem ipsum dolor sit amet
-                                  </Text>
-                                  <Block classes={'e-background-grey-200 bl-padding'}>
+                                </ListItem>
+                               <Divider classes={'thinnest e-background-grey-200'} />
+                                <ListItem>
+                                <Text type={'p'} classes={'e-subhead'}>
+                                   <Text type={'a'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
+                                 commented on
+                                 </Text>
+                                 <Text type={'p'} classes={'e-text-grey-800 e-body2'}>Lorem ipsum dolor sit amet
+                                 </Text>
+                                 <Block classes={'e-background-grey-200 bl-padding'}>
                                     <Text type={'span'} classes={'e-text-center e-caption'}>
                                       Lorem ipsum dolor sit amet, eum altera putent eleifend ut. Est an facer graeco nominavi.
                                     </Text>
@@ -198,16 +199,16 @@ class MateriableBlog extends React.Component {
                                   <Text type={'span'} classes={'e-text-center e-caption'}>
                                     <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
                                     15 minutes ago</Text>
-                                  <Divider classes={'thinnest e-background-grey-200'} />
-                                </Block>
-                                <Block>
-                                  <Text type={'p'} classes={'e-subhead'}>
-                                    <Text type={'a'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
-                                  commented on
-                                  </Text>
-                                  <Text type={'p'} classes={'e-text-grey-800 e-body2'}>Lorem ipsum dolor sit amet
-                                  </Text>
-                                  <Block classes={'e-background-grey-200 bl-padding'}>
+                                </ListItem>
+                                <Divider classes={'thinnest e-background-grey-200'} />
+                                <ListItem>
+                                <Text type={'p'} classes={'e-subhead'}>
+                                   <Text type={'a'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
+                                 commented on
+                                 </Text>
+                                 <Text type={'p'} classes={'e-text-grey-800 e-body2'}>Lorem ipsum dolor sit amet
+                                 </Text>
+                                 <Block classes={'e-background-grey-200 bl-padding'}>
                                     <Text type={'span'} classes={'e-text-center e-caption'}>
                                       Lorem ipsum dolor sit amet, eum altera putent eleifend ut. Est an facer graeco nominavi.
                                     </Text>
@@ -215,7 +216,9 @@ class MateriableBlog extends React.Component {
                                   <Text type={'span'} classes={'e-text-center e-caption'}>
                                     <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
                                     15 minutes ago</Text>
-                                </Block>
+                                </ListItem>
+                                <Divider classes={'thinnest e-background-grey-200'} />
+                              </List>
                               </CardContent>
                             </Card>
 
