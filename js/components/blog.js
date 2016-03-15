@@ -143,6 +143,26 @@ class MateriableBlog extends React.Component {
         return (
 
           <Block className={'materiable-blog e-background-grey-200'}>
+            <Block className={'header e-text-center'}>
+              <Image src={'http://www.studiomatris.com/wp-content/uploads/2012/08/color_icon.png'} className={'e-margin-bottom-25'} height={'75px'} />
+              <Text type={'h1'} classes={'e-text-center e-display-3 adjust-h1-header e-margin-bottom-40 e-text-white'}>
+                meet your new materiable theme
+              </Text>
+              <Block>
+                <Btn label={'BUY THEME'} ripple={true} type={'primary'} className={'raised e-margin-bottom-50 e-padding-left-right-20'} />
+                <Btn label={'CONTACT US'} ripple={true} type={'primary'} className={'raised e-margin-bottom-25 e-background-indigo-600'} />
+              </Block>
+              <Block className={'buttons-for-slider'}>
+                <ul className={'slider'}>
+                  <li></li>
+                  <li></li>
+                  <li className={'selected'}></li>
+                  <li></li>
+                </ul>
+              </Block>
+              <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'primary'} className={'fab-mini e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />
+          </Block>
+
             <Block classes='top-blog e-background-indigo-500'>
             </Block>
 
