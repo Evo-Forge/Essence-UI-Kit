@@ -126,6 +126,8 @@ var tabs = {
           <Text type={'a'} classes={'e-text-center e-caption e-body2 e-text-blue-400'}>More</Text>
         </CardContent>
       </Card>
+
+
       <Card ClassNames={'e-text-left'}>
         <CardHeader>
         <Text type={'h2'} classes={'e-text-uppercase e-title'}> Latest Conmments </Text>
@@ -340,52 +342,211 @@ class MateriableBlog extends React.Component {
                   classes={'e-background-indigo-500 e-text-grey-500 e-text-left e-caption nav-no-padding'}
                   indicator={'e-background-red-500'}/>
               </Block>
-              <Block classes={'brick brick-8 e-background-white border'}>
+              <Block classes={'brick brick-8 e-background-white border all-posts-container'}>
 
-
-                <Block>
-                  <Image src={'http://www.hostingpolice.com/wp-content/uploads/2015/11/Hosting-Metallic-CLEAR-400x150px-CRP-WEB-PNG8-NOINF.png'} className={'image-replacer'}/>
-                </Block>
-
-                <Block>
-                  <Text type={'h1'} classes={'e-headline'}>Featured image post
-                  </Text>
-                  <Text type={'span'} classes={'e-body1'}>
-                    <Icon name={"social-person"} className={"e-text-grey-700"} />
-                    By: </Text>
-                  <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
-                  <Text type={'span'} classes={'e-text-center e-caption'}>
-                    <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
-                    15 minutes ago</Text>
-                    <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
-                      Lorem ipsum dolor sit amet, per ut ignota efficiendi, munere fabellas ne per, eam et oportere corrumpit. Cu exerci intellegam dissentiunt qui. Ius integre luptatum recusabo at, vim in partem fabellas voluptatibus, ei cum autem etiam quidam. Dolor erroribus vituperatoribus id ius, et reque iusto pertinacia cum.
-                    </Text>
-                  <Block>
-                    <Block className={'e-left'}>
-                      <Btn label={'Read More'} ripple={false} type={'info'} className={'raised'} />
-                      <List type={'inline'}>
-                        <ListItem>
-                          <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>32 like</Text>
-                        </ListItem>
-                        <ListItem>
-                          <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
-                        </ListItem>
-                        <ListItem>
-                          <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
-                            <Icon name={"content-reply"} className={"e-text-orange-A700"} />
-                            Share</Text>
-                        </ListItem>
-                      </List>
+                <Block className={'post-container small-image'}>
+                  <Block className={'post-header left-column'}>
+                    <Image src={'./assets/img/tiger.jpg'} className={'image-replacer'}/>
+                  </Block>
+                  <Block className={'right-column'}>
+                    <Block className={'post-content'}>
+                      <Text type={'h1'} classes={'e-headline'}>Featured image post</Text>
+                      <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
+                      <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
+                      <Text type={'span'} classes={'e-text-center e-caption'}>
+                        <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
+                        15 minutes ago</Text>
+                        <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
+                          Lorem ipsum dolor sit amet, per ut ignota efficiendi, munere fabellas ne per, eam et oportere corrumpit. Cu exerci intellegam dissentiunt qui. Ius integre luptatum recusabo at, vim in partem fabellas voluptatibus, ei cum autem etiam quidam. Dolor erroribus vituperatoribus id ius, et reque iusto pertinacia cum.
+                        </Text>
                     </Block>
-                    <Block className={'e-right'}>
-                      <Icon name={"action-favorite"} className={"e-text-pink-A400 e-margin-top-15"} />
+                    <Block className={'post-footer'}>
+                      <Block className={'left-footer'}>
+                        <Btn label={'Read More'} ripple={true} type={'info'} className={'raised'} />
+                        <List type={'inline'} className={'post-links'}>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>32 like</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
+                              <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                              Share</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                      <Text type={'a'} href={'#'} className={'favorite'}>
+                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                      </Text>
                     </Block>
                   </Block>
-                  <Divider classes={'thin e-background-grey-300 e-margin-top-15 diveder-float'} />
-                </Block>
+                  <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
+                </Block>{/*end .post-container*/}
 
                 <Block className={'post-container'}>
-                  <Divider classes={'thin e-background-grey-300 e-margin-top-15 diveder-float'} />
+                  <Block className={'post-header left-column'}>
+                    <Image src={'./assets/img/tiger.jpg'} className={'image-replacer'}/>
+                  </Block>
+                  <Block className={'right-column'}>
+                    <Block className={'post-content'}>
+                      <Text type={'h1'} classes={'e-headline'}>Featured image post</Text>
+                      <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
+                      <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
+                      <Text type={'span'} classes={'e-text-center e-caption'}>
+                        <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
+                        15 minutes ago</Text>
+                        <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
+                          Lorem ipsum dolor sit amet, per ut ignota efficiendi, munere fabellas ne per, eam et oportere corrumpit. Cu exerci intellegam dissentiunt qui. Ius integre luptatum recusabo at, vim in partem fabellas voluptatibus, ei cum autem etiam quidam. Dolor erroribus vituperatoribus id ius, et reque iusto pertinacia cum.
+                        </Text>
+                    </Block>
+                    <Block className={'post-footer'}>
+                      <Block className={'left-footer'}>
+                        <Btn label={'Read More'} ripple={true} type={'info'} className={'raised'} />
+                        <List type={'inline'} className={'post-links'}>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>32 like</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
+                              <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                              Share</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                      <Text type={'a'} href={'#'} className={'favorite'}>
+                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                      </Text>
+                    </Block>
+                  </Block>
+                  <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
+                </Block>{/*end .post-container*/}
+
+                <Block className={'post-container masonry'}>
+                  <Block className={'post-header left-column'}>
+                    <Image src={'./assets/img/tiger.jpg'} className={'image-replacer'}/>
+                  </Block>
+                  <Block className={'right-column'}>
+                    <Block className={'post-content'}>
+                      <Text type={'h1'} classes={'e-headline'}>Featured image post</Text>
+                      <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
+                      <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
+                      <Text type={'span'} classes={'e-text-center e-caption'}>
+                        <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
+                        15 minutes ago</Text>
+                        <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
+                          Lorem ipsum dolor sit amet, per ut ignota efficiendi, munere fabellas ne per, eam et oportere corrumpit. Cu exerci intellegam dissentiunt qui. Ius integre luptatum recusabo at, vim in partem fabellas voluptatibus, ei cum autem etiam quidam. Dolor erroribus vituperatoribus id ius, et reque iusto pertinacia cum.
+                        </Text>
+                    </Block>
+                    <Block className={'post-footer'}>
+                      <Block className={'left-footer'}>
+                        <Btn label={'Read More'} ripple={true} type={'info'} className={'raised'} />
+                        <List type={'inline'} className={'post-links'}>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>32 like</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
+                              <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                              Share</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                      <Text type={'a'} href={'#'} className={'favorite'}>
+                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                      </Text>
+                    </Block>
+                  </Block>
+                  <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
+                </Block>{/*end .post-container*/}
+
+                <Block className={'post-container masonry'}>
+                  <Block className={'post-header left-column'}>
+                    <Image src={'./assets/img/tiger.jpg'} className={'image-replacer'}/>
+                  </Block>
+                  <Block className={'right-column'}>
+                    <Block className={'post-content'}>
+                      <Text type={'h1'} classes={'e-headline'}>Featured image post</Text>
+                      <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
+                      <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
+                      <Text type={'span'} classes={'e-text-center e-caption'}>
+                        <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
+                        15 minutes ago</Text>
+                        <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
+                          Lorem ipsum dolor sit amet, per ut ignota efficiendi, munere fabellas ne per, eam et oportere corrumpit. Cu exerci intellegam dissentiunt qui. Ius integre luptatum recusabo at, vim in partem fabellas voluptatibus, ei cum autem etiam quidam. Dolor erroribus vituperatoribus id ius, et reque iusto pertinacia cum.
+                        </Text>
+                    </Block>
+                    <Block className={'post-footer'}>
+                      <Block className={'left-footer'}>
+                        <Btn label={'Read More'} ripple={true} type={'info'} className={'raised'} />
+                        <List type={'inline'} className={'post-links'}>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>32 like</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
+                              <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                              Share</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                      <Text type={'a'} href={'#'} className={'favorite'}>
+                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                      </Text>
+                    </Block>
+                  </Block>
+                  <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
+                </Block>{/*end .post-container*/}
+
+                <Block className={'post-container masonry'}>
+                  <Block className={'post-header left-column'}>
+                    <Image src={'./assets/img/tiger.jpg'} className={'image-replacer'}/>
+                  </Block>
+                  <Block className={'right-column'}>
+                    <Block className={'post-content'}>
+                      <Text type={'h1'} classes={'e-headline'}>Featured image post</Text>
+                      <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
+                      <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
+                      <Text type={'span'} classes={'e-text-center e-caption'}>
+                        <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
+                        15 minutes ago</Text>
+                        <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
+                          Lorem ipsum dolor sit amet, per ut ignota efficiendi, munere fabellas ne per, eam et oportere corrumpit. Cu exerci intellegam dissentiunt qui. Ius integre luptatum recusabo at, vim in partem fabellas voluptatibus, ei cum autem etiam quidam. Dolor erroribus vituperatoribus id ius, et reque iusto pertinacia cum.
+                        </Text>
+                    </Block>
+                    <Block className={'post-footer'}>
+                      <Block className={'left-footer'}>
+                        <Btn label={'Read More'} ripple={true} type={'info'} className={'raised'} />
+                        <List type={'inline'} className={'post-links'}>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>32 like</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'span'} classes={'e-text-center e-text-uppercase e-body1'}>15 comments</Text>
+                          </ListItem>
+                          <ListItem>
+                            <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-orange-A700'}>
+                              <Icon name={"content-reply"} className={"e-text-orange-A700"} />
+                              Share</Text>
+                          </ListItem>
+                        </List>
+                      </Block>
+                      <Text type={'a'} href={'#'} className={'favorite'}>
+                        <Icon name={"action-favorite"} className={"e-text-pink-A400"} />
+                      </Text>
+                    </Block>
+                  </Block>
+                  <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
                 </Block>{/*end .post-container*/}
 
 
