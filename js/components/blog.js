@@ -651,6 +651,100 @@ class MateriableBlog extends React.Component {
                   </CardContent>
                 </Card>
 
+                <Card>
+                  <CardContent className={'all-posts-container e-background-white'}>
+                    <Block className={'e-margin-60 comments'}>
+                       <Text type={'h2'} classes={'e-text-uppercase e-title'}>LATEST COMMENTS </Text>
+                       <List type={'navigation'} classes={'e-twolinelist first-ul'}>
+                         <ListItem>
+                           <Text type={'p'} classes={'e-subhead p-comment-title'}>
+                              <Image src={'http://getessence.io/assets/img/essence_icon.png'} width={'30px'} height={'30px'} alt={'Essence Image'} />
+                              <Text type={'span'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
+                            </Text>
+                            <Block classes={'e-background-grey-200 bl-padding relative'}>
+                               <Text type={'p'} classes={'e-text-left e-caption width-p-comments'}>
+                                 Lorem ipsum dolor sit amet, aeque harum tantas at pro, ea usu feugait scribentur. Alia fabulas consectetuer duo te, case consul eu pro. Mei minim melius utroque ne.
+                               </Text>
+                               <Icon name={"content-reply"} className={"e-text-grey-400 top-icon"} />
+                               <Icon name={"action-favorite"} className={"e-text-grey-400 bottom-icon"} />
+                             </Block>
+                         </ListItem>
+
+                         <ListItem>
+                           <Text type={'p'} classes={'e-subhead p-comment-title'}>
+                              <Image src={'http://getessence.io/assets/img/essence_icon.png'} width={'30px'} height={'30px'} alt={'Essence Image'} />
+                              <Text type={'span'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
+                            </Text>
+                            <Block classes={'e-background-grey-200 bl-padding relative'}>
+                               <Text type={'p'} classes={'e-text-left e-caption width-p-comments'}>
+                                 Lorem ipsum dolor sit amet, aeque harum tantas at pro, ea usu feugait scribentur. Alia fabulas consectetuer duo te, case consul eu pro. Mei minim melius utroque ne.
+                               </Text>
+                               <Icon name={"content-reply"} className={"e-text-grey-400 top-icon"} />
+                               <Icon name={"action-favorite"} className={"e-text-grey-400 bottom-icon"} />
+                             </Block>
+                         </ListItem>
+
+                         <ListItem>
+                           <Text type={'p'} classes={'e-subhead p-comment-title'}>
+                              <Image src={'http://getessence.io/assets/img/essence_icon.png'} width={'30px'} height={'30px'} alt={'Essence Image'} />
+                              <Text type={'span'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
+                            </Text>
+                            <Block classes={'e-background-grey-200 bl-padding relative'}>
+                               <Text type={'p'} classes={'e-text-left e-caption width-p-comments'}>
+                                 Lorem ipsum dolor sit amet, aeque harum tantas at pro, ea usu feugait scribentur. Alia fabulas consectetuer duo te, case consul eu pro. Mei minim melius utroque ne.
+                               </Text>
+                               <Icon name={"content-reply"} className={"e-text-grey-400 top-icon"} />
+                               <Icon name={"action-favorite"} className={"e-text-grey-400 bottom-icon"} />
+                             </Block>
+                             <List className={'second-ul'}>
+                               <ListItem>
+                                 <Text type={'p'} classes={'e-subhead p-comment-title'}>
+                                    <Image src={'http://getessence.io/assets/img/essence_icon.png'} width={'30px'} height={'30px'} alt={'Essence Image'} />
+                                    <Text type={'span'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
+                                  </Text>
+                                  <Block classes={'e-background-grey-200 bl-padding relative'}>
+                                     <Text type={'p'} classes={'e-text-left e-caption width-p-comments'}>
+                                       Lorem ipsum dolor sit amet, aeque harum tantas at pro, ea usu feugait scribentur. Alia fabulas consectetuer duo te, case consul eu pro. Mei minim melius utroque ne.
+                                     </Text>
+                                     <Icon name={"content-reply"} className={"e-text-grey-400 top-icon"} />
+                                     <Icon name={"action-favorite"} className={"e-text-grey-400 bottom-icon"} />
+                                   </Block>
+                               </ListItem>
+                               <ListItem>
+                                 <Text type={'p'} classes={'e-subhead p-comment-title'}>
+                                    <Image src={'http://getessence.io/assets/img/essence_icon.png'} width={'30px'} height={'30px'} alt={'Essence Image'} />
+                                    <Text type={'span'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
+                                  </Text>
+                                  <Block classes={'e-background-grey-200 bl-padding relative'}>
+                                     <Text type={'p'} classes={'e-text-left e-caption width-p-comments'}>
+                                       Lorem ipsum dolor sit amet, aeque harum tantas at pro, ea usu feugait scribentur. Alia fabulas consectetuer duo te, case consul eu pro. Mei minim melius utroque ne.
+                                     </Text>
+                                     <Icon name={"content-reply"} className={"e-text-grey-400 top-icon"} />
+                                     <Icon name={"action-favorite"} className={"e-text-grey-400 bottom-icon"} />
+                                   </Block>
+                               </ListItem>
+                             </List>
+                         </ListItem>
+
+                         <ListItem>
+                           <Text type={'p'} classes={'e-subhead p-comment-title'}>
+                              <Image src={'http://getessence.io/assets/img/essence_icon.png'} width={'30px'} height={'30px'} alt={'Essence Image'} />
+                              <Text type={'span'} classes={'e-text-center e-subhead e-text-blue-400'}>Steve Pancake </Text>
+                            </Text>
+                            <Block classes={'e-background-grey-200 bl-padding relative'}>
+                               <Text type={'p'} classes={'e-text-left e-caption width-p-comments'}>
+                                 Lorem ipsum dolor sit amet, aeque harum tantas at pro, ea usu feugait scribentur. Alia fabulas consectetuer duo te, case consul eu pro. Mei minim melius utroque ne.
+                               </Text>
+                               <Icon name={"content-reply"} className={"e-text-grey-400 top-icon"} />
+                               <Icon name={"action-favorite"} className={"e-text-grey-400 bottom-icon"} />
+                             </Block>
+                         </ListItem>
+
+                       </List>
+                     </Block>
+                  </CardContent>
+                </Card> {/*end comments */}
+
                 {/* Join discussion*/}
                 <Card classes={'discussion e-background-white'}>
                   <Block classes={'padding-30'}>
