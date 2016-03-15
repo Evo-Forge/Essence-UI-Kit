@@ -437,6 +437,38 @@ class MateriableBlog extends React.Component {
                   </Block>
                   <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
                 </Block>{/*end .post-container*/}
+                <Block className={'post-container'}>
+                  <Block className={'post-header left-column'}>
+                    <Image src={'./assets/img/tiger.jpg'} className={'image-replacer'}/>
+                  </Block>
+                  <Block className={'right-column'}>
+                    <Block className={'post-content'}>
+                      <Text type={'h1'} classes={'e-headline'}>Single Post with Sidebar</Text>
+                      <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
+                      <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
+                      <Text type={'span'} classes={'e-text-center e-caption'}>
+                        <Icon name={"image-panorama-fisheye"} className={"e-text-grey-700"} />
+                        15 minutes ago</Text>
+                        <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        </Text>
+                        <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
+                          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                        </Text>
+                        <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
+                          consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                        </Text>
+                        <Text type={'h1'} classes={'e-title'}>1. Sed ut perspiciatis unde omnis</Text>
+                        <Text type={'p'} classes={'e-text-grey-700 e-body1'}>
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        </Text>
+                    </Block>
+
+
+
+                  </Block>
+                  <Divider classes={'thin e-background-grey-300 e-margin-top-15'} />
+                </Block>{/*end .post-container*/}
 
                 <Block className={'post-container masonry'}>
                   <Block className={'post-header left-column'}>
