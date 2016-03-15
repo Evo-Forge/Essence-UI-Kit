@@ -1,32 +1,95 @@
 import React from 'react';
 import ClassNames from 'classnames';
 
-import { Btn, AppBar, Block, Text, Utils, Menu, List, ListItem} from 'react-essence';
+import { Btn, AppBar, Block, Divider, Icon, Text, Utils, Menu, List, ListItem} from 'react-essence';
 
 class MateriableHeader extends React.Component {
 
     render() {
         return (
-        	<AppBar classes={'e-background-indigo-800'}>
-        		<Block className={'e-container '}>
-        			<Block className={'brick-12 e-no-margin'}>
-						<List type={'inline'}>
-							<ListItem>
-								<Text type={'a'} href={'#Home'} className={'e-text-uppercase e-text-white'}>Home</Text>
-							</ListItem>
-							<ListItem>
-								<Text type={'a'} href={'#Blog'} className={'e-text-uppercase e-text-white'}>Blog</Text>
-							</ListItem>
-							<ListItem>
-								<Text type={'a'} href={'#Portfolio'} className={'e-text-uppercase e-text-white'}>Portfolio</Text>
-							</ListItem>
-							<ListItem>
-								<Text type={'a'} href={'#Other'} className={'e-text-uppercase e-text-white'}>Other</Text>
-							</ListItem>													
-						</List>						
-					</Block>
-				</Block>
-			</AppBar>
+            <AppBar className={'e-background-indigo-400 e-text-white'}>
+                <Block className={'e-container flex-nav relative'}>
+                    <Menu type={'cover'} icon={'navigation-menu'} className={'e-left display-type-little'}>
+                            <ListItem className={'icon-list-nav'}>
+                                <Icon name={"navigation-menu"} className={"e-text-grey-400"} />
+                             </ListItem>
+                             <ListItem className={'list-nav-little'}>
+                                  <Text className={'adjust-list-nav'}>
+                                     <Text type={'span'} className={"e-text-grey-400"}><Icon name={"action-home"} className={"e-text-grey-400"} />Home</Text>
+                                  </Text>
+                              </ListItem>
+                              <ListItem className={'list-nav-little'}>
+                                   <Text className={'adjust-list-nav'}>
+                                      <Text type={'span'} className={"e-text-grey-400"}><Icon name={"action-receipt"} className={"e-text-grey-400"} />Layout</Text>
+                                   </Text>
+                               </ListItem>
+                              <ListItem className={'list-nav-little'}>
+                                   <Text className={'adjust-list-nav'}>
+                                      <Text type={'span'} className={"e-text-grey-400"}><Icon name={"editor-insert-emoticon"} className={"e-text-grey-400"} />Blog</Text>
+                                   </Text>
+                               </ListItem>
+                               <ListItem className={'list-nav-little'}>
+                                    <Text className={'adjust-list-nav'}>
+                                       <Text type={'span'} className={"e-text-grey-400"}><Icon name={"editor-format-align-left"} className={"e-text-grey-400"} />Pages</Text>
+                                    </Text>
+                                </ListItem>
+                                <ListItem className={'list-nav-little'}>
+                                     <Text className={'adjust-list-nav'}>
+                                        <Text type={'span'} className={"e-text-grey-400"}><Icon name={"editor-insert-photo"} className={"e-text-grey-400"} />Portfolio</Text>
+                                     </Text>
+                                 </ListItem>
+                                 <ListItem className={'list-nav-little'}>
+                                      <Text className={'adjust-list-nav'}>
+                                         <Text type={'span'} className={"e-text-grey-400"}><Icon name={"maps-local-post-office"} className={"e-text-grey-400"} />Contact</Text>
+                                      </Text>
+                                 </ListItem>
+                    </Menu>
+                    <Text className={'logo-text'}>
+                        Materiable
+                     </Text>
+                    <List type={'inline'} className={'display-type-full'}>
+                     <ListItem className={'list-nav'}>
+                          <Text className={'adjust-list-nav'}>
+                             <Text type={'span'}>HOME</Text>
+                             <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
+                          </Text>
+                      </ListItem>
+                      <ListItem className={'list-nav'}>
+                           <Text className={'adjust-list-nav'}>
+                              <Text type={'span'}>LAYOUT</Text>
+                              <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
+                           </Text>
+                       </ListItem>
+                      <ListItem className={'list-nav'}>
+                           <Text className={'adjust-list-nav'}>
+                              <Text type={'span'}>BLOG</Text>
+                              <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
+                           </Text>
+                       </ListItem>
+                       <ListItem className={'list-nav'}>
+                            <Text className={'adjust-list-nav'}>
+                               <Text type={'span'}>PAGES</Text>
+                               <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
+                            </Text>
+                        </ListItem>
+                        <ListItem className={'list-nav'}>
+                             <Text className={'adjust-list-nav'}>
+                                <Text type={'span'}>PORTFOLIO</Text>
+                                <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
+                             </Text>
+                         </ListItem>
+                         <ListItem className={'list-nav'}>
+                              <Text className={'adjust-list-nav'}>
+                                 <Text type={'span'}>CONTACT</Text>
+                                 <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
+                              </Text>
+                         </ListItem>
+                         </List>
+                    <Block className={'e-right absolute'}>
+                        <Icon name={"action-search"} className={"e-text-white"} />
+                    </Block>
+                </Block>
+            </AppBar>
         );
     }
 }
