@@ -7,7 +7,7 @@ class MateriableHome extends React.Component {
 
     render() {
         return (
-            <Block className={'materiables-home'}>
+            <Block className={'materiables-home'} id={'home'}>
               <Block className={'header e-text-center'}>
                   <Image src={'http://www.studiomatris.com/wp-content/uploads/2012/08/color_icon.png'} className={'e-margin-bottom-25'} height={'75px'} />
                   <Text type={'h1'} classes={'e-text-center e-display-3 adjust-h1-header e-margin-bottom-40'}>
@@ -25,12 +25,14 @@ class MateriableHome extends React.Component {
                         <li></li>
                     </ul>
                   </Block>
-                  <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'primary'} className={'fab-mini e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />
+                  <Text type={'a'} href={'#footer'}>
+                    <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'primary'} className={'fab-mini e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />
+                  </Text>
               </Block>
 
               {/*paper one*/}
 
-              <Paper className={'main-one'}>
+              <Paper className={'main-one e-background-grey-100'}>
                 <Block className={'e-container e-padding-top-50 e-padding-bottom-50 flex-container'}>
                     <Block className={'brick-4 adjust-brick-4-header'}>
                         <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2'}>
@@ -51,7 +53,7 @@ class MateriableHome extends React.Component {
                         <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         </Text>
-                        <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
+                        <Btn label={'MORE'} ripple={true} className={'flat e-text-white e-text-center e-button e-background-grey-100 e-margin-top-25 e-text-blue-500'} />
                     </Block>
                     <Block className={'brick-4 adjust-brick-4-middle'}>
                         <Block className={'radius-block e-text-center e-margin-bottom-15'}>
@@ -63,7 +65,7 @@ class MateriableHome extends React.Component {
                         <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         </Text>
-                        <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
+                        <Btn label={'MORE'} ripple={true} className={'flat e-text-white e-text-center e-button e-background-grey-100 e-margin-top-25 e-text-blue-500'} />
                     </Block>
                     <Block className={'brick-4 adjust-brick-4-middle'}>
                         <Block className={'radius-block e-text-center e-margin-bottom-15'}>
@@ -75,7 +77,7 @@ class MateriableHome extends React.Component {
                         <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-50'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         </Text>
-                        <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
+                        <Btn label={'MORE'} ripple={true} className={'flat e-text-white e-text-center e-button e-background-grey-100 e-margin-top-25 e-text-blue-500'} />
                     </Block>
                     </Block>
                 </Block>
@@ -277,8 +279,8 @@ class MateriableHome extends React.Component {
                             <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"device-bluetooth-connected"} className={"e-text-grey-600"} /></Text>
                         </Block>
                         <Block>
-                            <Text type={'a'} classes={'e-text-center e-button e-text-grey-500 e-margin-right-25'}>HIRE ME</Text>
-                            <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
+                            <Btn label={'HIRE ME'} ripple={true} className={'flat e-text-white e-text-center e-button e-background-white e-margin-top-25 e-text-grey-500 e-margin-right-25'} />
+                            <Btn label={'MORE'} ripple={true} className={'flat e-text-white e-text-center e-button e-background-white e-margin-top-25 e-text-blue-500'} />
                         </Block>
                     </Block>
                     <Block className={'brick-4 adjust-brick-4-middle'}>
@@ -301,8 +303,8 @@ class MateriableHome extends React.Component {
                             <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"device-bluetooth-connected"} className={"e-text-grey-600"} /></Text>
                         </Block>
                         <Block>
-                            <Text type={'a'} classes={'e-text-center e-button e-text-grey-500 e-margin-right-25'}>HIRE ME</Text>
-                            <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
+                            <Btn label={'HIRE ME'} ripple={true} className={'flat e-text-white e-text-center e-button e-background-white e-margin-top-25 e-text-grey-500 e-margin-right-25'} />
+                            <Btn label={'MORE'} ripple={true} className={'flat e-text-white e-text-center e-button e-background-white e-margin-top-25 e-text-blue-500'} />
                         </Block>
                     </Block>
                     <Block className={'brick-4 adjust-brick-4-middle'}>
@@ -319,14 +321,14 @@ class MateriableHome extends React.Component {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             </Text>
                         <Block>
-                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"action-android"} className={"e-text-grey-600"} /></Text>
+                            <Text type={'a'} classes={'e-text-center e-button e-margin-right-8 adjust-a'}><Icon name={"action-android"} className={"e-text-grey-600"} /></Text>
                             <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"social-share"} className={"e-text-grey-600"} /></Text>
                             <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"hardware-cast-connected"} className={"e-text-grey-600"} /></Text>
                             <Text type={'a'} classes={'e-text-center e-button e-margin-right-8'}><Icon name={"device-bluetooth-connected"} className={"e-text-grey-600"} /></Text>
                         </Block>
                         <Block>
-                            <Text type={'a'} classes={'e-text-center e-button e-text-grey-500 e-margin-right-25'}>HIRE ME</Text>
-                            <Text type={'a'} classes={'e-text-center e-button e-text-blue-500'}>MORE</Text>
+                            <Btn label={'HIRE ME'} ripple={true} className={'flat e-text-white e-text-center e-button e-background-white e-margin-top-25 e-text-grey-500 e-margin-right-25'} />
+                            <Btn label={'MORE'} ripple={true} className={'flat e-text-white e-text-center e-button e-background-white e-margin-top-25 e-text-blue-500'} />
                         </Block>
                     </Block>
                     </Block>
