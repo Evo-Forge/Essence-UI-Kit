@@ -1,0 +1,99 @@
+.add-border(@color) {
+  border: 1px solid @color;
+}
+@light-blue-height: 50px;
+
+.materiable-singlepost {
+  .header {
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    position: relative;
+    img {
+      width: 100%;
+      max-height: 500px;
+    }
+    h1 {
+      position: absolute;
+      left: 10%;
+      bottom: 10%;
+      max-width: 400px;
+    }
+  }
+  .go-top {
+  	margin-top: -@light-blue-height;
+  	background-color: inherit;
+  }
+  .main-content {
+    display: flex;
+    background-color: transparent;
+    .main-right-column {
+      box-sizing: border-box;
+      width: 100%;
+      .all-posts-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .post-container {
+        width: 100%;
+        min-width: 300px;
+        padding: 5px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        .post-header {
+          img {
+            width: 100%;
+            max-height: 300px;
+            display: block;
+          }
+        }
+        .post-content {
+          h1 {
+            margin: 0;
+          }
+          .profil-post {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+          }
+        }
+        .post-footer {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-left: -8px;
+          .share-icon {
+            display: none;
+          }
+          .icons-container {
+            display: flex;
+          }
+        }
+      }
+      .discussion {
+        width: 100%;
+        box-sizing: border-box;
+        .e-input-group {
+          display: inline-block;
+          width: 90%;
+        }
+        .padding-30 {
+          padding: 30px;
+        }
+       }
+    }
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  .margin-chip {
+    margin-bottom: 5px;
+  }
+  .adjust-margin-card {
+    margin-left: 8px!important;
+    margin-right: 8px!important;
+  }
+}

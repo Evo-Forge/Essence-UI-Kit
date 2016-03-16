@@ -11,6 +11,7 @@ import {Block} from 'react-essence';
 import MateriableHeader from './components/header';
 import MateriableHome from './components/home';
 import MateriableBlog from './components/blog';
+import MateriableSinglePost from './components/singlepost';
 import MateriablePortfolio from './components/portfolio';
 import MateriableOther from './components/other';
 import MateriableAbout from './components/about';
@@ -27,6 +28,7 @@ class Materiable extends React.Component {
         		<MateriableHeader />
         		<MateriableHome />
             <MateriableBlog />
+						<MateriableSinglePost />
             <MateriablePortfolio />
             <MateriableOther />
 						<MateriableAbout />

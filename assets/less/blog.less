@@ -190,4 +190,119 @@
       }
     }
   }
+  .header {
+    display: none;
+  }
+  &.full-width {
+    .main-left-column {
+      display: none;
+    }
+    .main-right-column {
+      width: 100%;
+    }
+    .top-blog {
+      display: none;
+    }
+    .main-content {
+      justify-content: center;
+    }
+    .header {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #4154B3;
+      width: 100%;
+      min-height: 500px;
+    }
+    .buttons-for-slider{
+      // display: flex;
+      // justify-content: center;
+      .slider{
+        padding-left: 0!important;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background-color: white;
+          margin: 2px;
+        }
+        .selected{
+          width: 21px;
+          height: 10px;
+          border-radius: 33%;
+          background-color: #03A9F4;
+          margin: 2px;
+        }
+      }
+    }
+    .adjust-fab-header {
+      display: none;
+    }
+    .go-top {
+      margin-top: -50px;
+    }
+  }
+  &.no-sidebar {
+    .main-left-column {
+      display: none;
+    }
+    .main-right-column {
+      width: 100%;
+      max-width: 850px;
+      box-sizing: border-box;
+    }
+    .top-blog {
+      display: none;
+    }
+    .main-content {
+      justify-content: center;
+    }
+    .header {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #4154B3;
+      width: 100%;
+      min-height: 500px;
+    }
+    .buttons-for-slider{
+      // display: flex;
+      // justify-content: center;
+      .slider{
+        padding-left: 0!important;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background-color: white;
+          margin: 2px;
+        }
+        .selected{
+          width: 21px;
+          height: 10px;
+          border-radius: 33%;
+          background-color: #03A9F4;
+          margin: 2px;
+        }
+      }
+    }
+    .adjust-fab-header {
+      display: none;
+    }
+    .go-top {
+      margin-top: -50px;
+    }
+  }
 }
