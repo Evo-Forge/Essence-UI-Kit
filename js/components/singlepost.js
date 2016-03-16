@@ -155,7 +155,7 @@ class MateriableSinglePost extends React.Component {
                     <Block className={'post-container'}>
                       <Block className={'right-column'}>
                         <Block className={'post-content'}>
-                          <Text type={'h1'} classes={'e-headline'}>Single Post with Sidebar</Text>
+                          <Text type={'h1'} classes={'e-headline'}>Single Post with full image</Text>
                           <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
                           <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
                           <Text type={'span'} classes={'e-text-center e-caption'}>
@@ -311,7 +311,7 @@ class MateriableSinglePost extends React.Component {
                     </Text>
                     <Block>
                       <Icon name={"social-person"} className={"e-text-grey-800"} />
-                      <Input type={'text'} name={'label'} label={'Input with label'}/>
+                      <Input type={'text'} name={'label'} label={'Your name'}/>
                     </Block>
                     <Block>
                       <Icon name={"communication-email"} className={"e-text-grey-800"} />
@@ -325,14 +325,8 @@ class MateriableSinglePost extends React.Component {
                       <Icon name={"communication-messenger"} className={"e-text-grey-800"} />
                       <Input type={'text'} name={'label'} label={'Your message'}/>
                     </Block>
-                    <Block classes={'e-row'}>
-                      <Block classes={'brick brick-6 e-text-right'}>
-                        <Text type={'a'} href={''} classes={' e-text-grey-700 e-text-uppercase e-body2'}>clear</Text>
-                      </Block>
-                      <Block classes={'brick brick-6 e-text-right'}>
-                        <Text type={'a'} href={''} classes={'e-text-indigo-600 e-text-uppercase e-body2'}>send message</Text>
-                      </Block>
-                    </Block>
+                    <Btn label={'Send message'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600 e-right'} />
+                    <Btn label={'Clear'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800 e-right'} />
                   </Block>
                 </Card>
                 {/* End of Join discussion*/}

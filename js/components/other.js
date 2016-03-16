@@ -175,8 +175,8 @@ class MateriableOther extends React.Component {
                     <Text type={'h2'} classes={'e-text-left e-margin-top-100 e-text-grey-400 e-text-uppercase e-display-1'}>
                       quotes
                     </Text>
-                    <Block classes={'left-border length-small'}>
-                      <Text type={'em'} classes={'e-text-left e-padding-left-25 e-text-grey-600 e-headline'}>
+                    <Block classes={'left-border length-small e-padding-left-25'}>
+                      <Text type={'em'} classes={'e-text-left e-text-grey-600 e-headline'}>
                         "If we could sell our experiences for what they cost us, we'd all be millionaires." - Abigail Van Buren
                       </Text>
                     </Block>

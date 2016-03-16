@@ -21,28 +21,22 @@ class MateriableContact extends React.Component {
                       </Text>
                       <Block>
                         <Icon name={"social-person"} className={"e-text-grey-800"} />
-                        <Input type={'text'} name={'label'} label={'Your name'}/>
+                        <Input type={'text'} name={'label'} label={'Your name'} />
                       </Block>
                       <Block>
-                        <Icon name={"communication-email"} className={"e-text-grey-800"} />
-                        <Input type={'email'} name={'label'} label={'Your email'}/>
+                        <Icon name={"communication-email"} className={"e-text-grey-800 "} />
+                        <Input type={'email'} name={'label'} label={'Your email'} />
                       </Block>
                       <Block>
-                        <Icon name={"social-whatshot"} className={"e-text-grey-800"} />
-                        <Input type={'text'} name={'label'} label={'Your job'}/>
+                        <Icon name={"social-whatshot"} className={"e-text-grey-800 "} />
+                        <Input type={'text'} name={'label'} label={'Your job'} />
                       </Block>
                       <Block>
-                        <Icon name={"communication-messenger"} className={"e-text-grey-800"} />
-                        <Input type={'text'} name={'label'} label={'Your message'}/>
+                        <Icon name={"communication-messenger"} className={"e-text-grey-800 "} />
+                        <Input type={'text'} name={'label'} label={'Your message'} />
                       </Block>
-                      <Block classes={'e-row'}>
-                        <Block classes={'brick brick-6 e-text-right'}>
-                          <Btn label={'Clear'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800'} />
-                        </Block>
-                        <Block classes={'brick brick-6 e-text-right'}>
-                          <Btn label={'Send message'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600'} />
-                        </Block>
-                      </Block>
+                      <Btn label={'Send message'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600 e-right'} />
+                      <Btn label={'Clear'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800 e-right'} />
                     </Block>
                     <Block classes={'brick brick-6'}>
                       <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
@@ -75,7 +69,6 @@ class MateriableContact extends React.Component {
                   </Block>
                 </Paper>
               </Block>
-              {/*<Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'fab'} className={'fab e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />*/}
             </Block>
           </Block>
         );
