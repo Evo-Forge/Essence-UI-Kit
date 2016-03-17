@@ -126,18 +126,22 @@
           transition: opacity .3s ease-in-out;
           -moz-transition: opacity .3s ease-in-out;
           -webkit-transition: opacity .3s ease-in-out;
+          line-height: 80%;
           span {
-            font-size: 1.6vw;
+            font-size: 100%;
           }
           li {
             i, small {
-              font-size: 1.2vw;
+              font-size: 80%;
             }
           }
-
+        }
+        @media only screen and (max-width: 600px) {
+          .layer, .text-container {
+            display: none;
+          }
         }
       }
-
     }//end image container
   } //end portfolio-container
 
