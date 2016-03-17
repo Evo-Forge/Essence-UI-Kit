@@ -22,13 +22,22 @@
 .flex-nav{
 	display: flex!important;
 	align-items: center;
+	ul{
+		-webkit-transition: all .8s ease-in-out;
+		-moz-transition: all .8s ease-in-out;
+		-o-transition: all .8s ease-in-out;
+		transition: all .8s ease-in-out;
+	}
 	.list-nav{
 		.adjust-list-nav{
 			display: flex;
 			padding-left: 25px;
 			padding-right: 25px;
-			span{
+			a{
+				color: white;
 				line-height: 40px;
+				-webkit-transition: -webkit-transform 0.6s ease-in-out;
+				transition: transform 0.6s ease-in-out;
 			}
 		}
 	}
@@ -75,6 +84,5 @@
 				color:#F50057!important;
 			}
 		}
-
 	}
 }

@@ -7,11 +7,11 @@ class MateriableFooter extends React.Component {
 
     render() {
         return (
-        	<Block type={'footer'} classes={'e-text-white e-text-center e-background-indigo-500'}>
-        		<Block classes={'e-container'}>	        	
+        	<Block type={'footer'} classes={'e-text-white e-text-center e-background-indigo-500'} id={'footer'}>
+        		<Block classes={'e-container'}>
 	        			<Text type={'p'} classes={'e-caption e-text-white'}>
 	        				&copy; 2016 Materiable
-	        			</Text>				
+	        			</Text>
 				</Block>
 			</Block>
         );

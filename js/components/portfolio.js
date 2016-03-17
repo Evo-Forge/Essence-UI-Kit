@@ -7,7 +7,7 @@ class MateriablePortfolio extends React.Component {
 
     render() {
         return (
-          <Block className={'materiable-portfolio'}>
+          <Block className={'materiable-portfolio'} id={'portfolio'}>
 
             <Block className={'light-bg e-background-indigo-500'}>
               <Block className={'container e-background-white'}>
