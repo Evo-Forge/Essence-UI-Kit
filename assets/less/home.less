@@ -38,15 +38,16 @@
         margin: 2px;
       }
     }
-
+  }
+  .adjust-a-fab{
+      cursor: pointer;
+      width: 80px;
+      height: 80px;
+      position: absolute!important;
+      right: 50px;
+      top: 460px!important;
   }
 
-  .adjust-fab-header {
-    position: absolute!important;
-    // bottom: -35px!important;
-    right: 50px;
-    top: 460px!important;
-  }
   .main-one{
     height: auto;
     width: 100%;
@@ -277,6 +278,11 @@
     box-sizing: border-box;
     padding: 6px 6px 2px;
   }
+  .div-buttons-m3{
+    float: none!important;
+    margin: 2px 6px 6px;
+  }
+
   .adjust-e-brick-4{
     float: none!important;
     margin: 2px 6px 6px;
@@ -309,11 +315,7 @@
     font-weight: 600;
     align-self: center;
   }
-  .adjust-fab-header {
-    position: absolute;
-    right: 100px;
-    top: 420px;
-  }
+
   .header-bg-big {
     height: 400px;
     background: linear-gradient(rgba(76, 66, 126, 0.8), rgba(76, 66, 126, 0.8)), url('http://blog.hvidtfeldts.net/media/map3x.jpg') center center fixed;
@@ -355,5 +357,124 @@
     .header-bg-big {
       height: 200px;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .materiables-home {
+    .adjust-brick-4-articles{
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .main-two{
+      .brick-4{
+        width: 100%!important;
+        margin: 30px auto;
+      }
+    }
+
+    .main-five{
+      .brick-4{
+        width: 100%!important;
+      }
+    }
+     .main-two, .main-five {
+      .flex-row {
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .materiables-home {
+    .main-one {
+      .flex-row {
+        flex-wrap: wrap;
+      }
+    }
+    .main-four, .main-two, .main-five {
+      .flex-row {
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+    }
+    .adjust-brick-4-middle{
+      margin: 30px auto;
+    }
+    .adjust-brick-4-articles{
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 50px auto;
+    }
+
+    .main-five{
+      .brick-4{
+        width: 100%!important;
+      }
+    }
+  }
+}
+
+@media (max-width: 498px) {
+  .materiables-home {
+    .flex-row{
+      flex-wrap: wrap;
+    }
+    .adjust-brick-4-articles{
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 10px auto;
+    }
+    .main-five{
+      .brick-4{
+        width: 100%!important;
+      }
+    }
+    .main-four{
+      .brick-4{
+        width: 100%!important;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .materiables-home {
+    .padding-50{
+      padding: 10px!important;
+    }
+
+    .adjust-white-block{
+      width: 100%;
+      margin: 20px auto;
+    }
+  }
+  .main-two{
+    .top-article, .bottom-article{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .adjust-brick-4-articles{
+      margin: 30px auto;
+    }
+  }
+  .adjust-a-fab {
+    cursor: pointer;
+    width: 57px!important;
+    height: 57px!important;
+    position: absolute!important;
+    right: 8px!important;
+    top: 460px!important;
+  }
+  .adjust-brick-6-m7{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+  h1{
+    font-size: 30px!important;
   }
 }
