@@ -15,32 +15,32 @@ class MateriableHeader extends React.Component {
                              </ListItem>
                              <ListItem className={'list-nav-little'}>
                                   <Text className={'adjust-list-nav'}>
-                                     <Text type={'span'} className={"e-text-grey-400"}><Icon name={"action-home"} className={"e-text-grey-400"} />Home</Text>
+                                     <Text type={'a'} className={"e-text-grey-400"} href={'#home'}><Icon name={"action-home"} className={"e-text-grey-400"} />Home</Text>
                                   </Text>
                               </ListItem>
                               <ListItem className={'list-nav-little'}>
                                    <Text className={'adjust-list-nav'}>
-                                      <Text type={'span'} className={"e-text-grey-400"}><Icon name={"action-receipt"} className={"e-text-grey-400"} />Layout</Text>
+                                      <Text type={'a'} className={"e-text-grey-400"} href={'#layout'}><Icon name={"action-receipt"} className={"e-text-grey-400"} />Layout</Text>
                                    </Text>
                                </ListItem>
                               <ListItem className={'list-nav-little'}>
                                    <Text className={'adjust-list-nav'}>
-                                      <Text type={'span'} className={"e-text-grey-400"}><Icon name={"editor-insert-emoticon"} className={"e-text-grey-400"} />Blog</Text>
+                                      <Text type={'a'} className={"e-text-grey-400"} href={'#blog'}><Icon name={"editor-insert-emoticon"} className={"e-text-grey-400"} />Blog</Text>
                                    </Text>
                                </ListItem>
                                <ListItem className={'list-nav-little'}>
                                     <Text className={'adjust-list-nav'}>
-                                       <Text type={'span'} className={"e-text-grey-400"}><Icon name={"editor-format-align-left"} className={"e-text-grey-400"} />Pages</Text>
+                                       <Text type={'a'} className={"e-text-grey-400"} href={'#pages'}><Icon name={"editor-format-align-left"} className={"e-text-grey-400"} />Pages</Text>
                                     </Text>
                                 </ListItem>
                                 <ListItem className={'list-nav-little'}>
                                      <Text className={'adjust-list-nav'}>
-                                        <Text type={'span'} className={"e-text-grey-400"}><Icon name={"editor-insert-photo"} className={"e-text-grey-400"} />Portfolio</Text>
+                                        <Text type={'a'} className={"e-text-grey-400"} href={'#portfolio'}><Icon name={"editor-insert-photo"} className={"e-text-grey-400"} />Portfolio</Text>
                                      </Text>
                                  </ListItem>
                                  <ListItem className={'list-nav-little'}>
                                       <Text className={'adjust-list-nav'}>
-                                         <Text type={'span'} className={"e-text-grey-400"}><Icon name={"maps-local-post-office"} className={"e-text-grey-400"} />Contact</Text>
+                                         <Text type={'a'} className={"e-text-grey-400"} href={'#contact'}><Icon name={"maps-local-post-office"} className={"e-text-grey-400"} />Contact</Text>
                                       </Text>
                                  </ListItem>
                     </Menu>
@@ -50,37 +50,37 @@ class MateriableHeader extends React.Component {
                     <List type={'inline'} className={'display-type-full'}>
                      <ListItem className={'list-nav'}>
                           <Text className={'adjust-list-nav'}>
-                             <Text type={'span'}>HOME</Text>
+                             <Text type={'a'} href={'#home'}>HOME</Text>
                              <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
                           </Text>
                       </ListItem>
                       <ListItem className={'list-nav'}>
                            <Text className={'adjust-list-nav'}>
-                              <Text type={'span'}>LAYOUT</Text>
+                              <Text type={'a'} href={'#layout'}>LAYOUT</Text>
                               <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
                            </Text>
                        </ListItem>
                       <ListItem className={'list-nav'}>
                            <Text className={'adjust-list-nav'}>
-                              <Text type={'span'}>BLOG</Text>
+                              <Text type={'a'} href={'#blog'}>BLOG</Text>
                               <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
                            </Text>
                        </ListItem>
                        <ListItem className={'list-nav'}>
                             <Text className={'adjust-list-nav'}>
-                               <Text type={'span'}>PAGES</Text>
+                               <Text type={'a'} href={'#pages'}>PAGES</Text>
                                <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
                             </Text>
                         </ListItem>
                         <ListItem className={'list-nav'}>
                              <Text className={'adjust-list-nav'}>
-                                <Text type={'span'}>PORTFOLIO</Text>
+                                <Text type={'a'} href={'#portfolio'}>PORTFOLIO</Text>
                                 <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
                              </Text>
                          </ListItem>
                          <ListItem className={'list-nav'}>
                               <Text className={'adjust-list-nav'}>
-                                 <Text type={'span'}>CONTACT</Text>
+                                 <Text type={'a'} href={'#contact'}>CONTACT</Text>
                                  <Icon name={"hardware-keyboard-arrow-down"} className={"e-text-white"} />
                               </Text>
                          </ListItem>

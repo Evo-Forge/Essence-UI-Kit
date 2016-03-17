@@ -1,18 +1,38 @@
 import React from 'react';
 import ClassNames from 'classnames';
 
-import {AppBar, Block, Card, CardContent, Image, Icon, List, ListItem, Paper, Text, Utils} from 'react-essence';
+import {AppBar, Block, Card, CardContent, Image, Icon, List, ListItem, Menu, Paper, Text, Utils} from 'react-essence';
 
 class MateriablePortfolio extends React.Component {
 
     render() {
         return (
-          <Block className={'materiable-portfolio'}>
+          <Block className={'materiable-portfolio'} id={'portfolio'}>
 
             <Block className={'light-bg e-background-indigo-500'}>
               <Block className={'container e-background-white'}>
+                <Menu type={'cover'} icon={'navigation-menu'} className={'e-left drop-menu'}>
+                    <ListItem className={'icon-list-nav'}>
+                        <Icon name={"navigation-menu"} className={"e-text-grey-400"} />
+                    </ListItem>
+                    <ListItem className={'dropdown-item'}>
+                      <Text type={'a'} className={"e-text-grey-400"}>all</Text>
+                    </ListItem>
+                    <ListItem className={'dropdown-item'}>
+                      <Text type={'a'} className={"e-text-grey-400"}>web design</Text>
+                    </ListItem>
+                    <ListItem className={'dropdown-item'}>
+                      <Text type={'a'} className={"e-text-grey-400"}>logo design</Text>
+                    </ListItem>
+                    <ListItem className={'dropdown-item'}>
+                      <Text type={'a'} className={"e-text-grey-400"}>ux/ui design</Text>
+                    </ListItem>
+                    <ListItem className={'dropdown-item'}>
+                      <Text type={'a'} className={"e-text-grey-400"}>photography</Text>
+                    </ListItem>
+                  </Menu>
 
-                  <List type={'inline'}>
+                  <List type={'inline'} className={'large-menu'}>
                     <ListItem className={'active'}>
                       <Text type={'a'} href={'#'} className={'e-text-uppercase e-text-blue-grey-300 e-text-center e-button'}>all</Text>
                     </ListItem>

@@ -142,8 +142,7 @@ class MateriableBlog extends React.Component {
     render() {
         return (
 
-          <Block className={'materiable-blog e-background-grey-200'}>
-
+          <Block className={'materiable-blog e-background-grey-200'} id={'blog'}>
             <Block className={'header e-text-center'}>
               <Image src={'http://www.studiomatris.com/wp-content/uploads/2012/08/color_icon.png'} className={'e-margin-bottom-25'} height={'75px'} />
               <Text type={'h1'} classes={'e-text-center e-display-3 adjust-h1-header e-margin-bottom-40 e-text-white'}>

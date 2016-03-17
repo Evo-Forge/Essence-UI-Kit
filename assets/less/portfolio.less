@@ -8,22 +8,70 @@
     .container {
       max-width: 1200px;
       width: 100%;
-      li {
-        line-height: 50px;
-        border-bottom: 2px solid transparent;
-        width: 100px;
-        a {
-          display: block;
-        }
-        &:hover, &.active {
-          border-bottom: 2px solid #BB6F8B;
+
+      .large-menu {
+        li {
+          line-height: 50px;
+          border-bottom: 2px solid transparent;
+          width: 100px;
           a {
+            display: block;
+          }
+          &:hover, &.active {
+            border-bottom: 2px solid #BB6F8B;
+            a {
+              color: #212121!important;
+            }
+          }
+        }
+      }
+      nav {
+        margin-left: 10px;
+      }
+      .drop-menu {
+        display: none;
+        i:first-child {
+          line-height: 50px;
+          color: #90a4ae!important;
+          &:hover {
             color: #212121!important;
           }
+        }
+        .dropdown-item {
+          a:hover {
+            color: #212121!important;
+          }
+        }
+
+      }
+      @media only screen and (max-width: 600px) {
+        .drop-menu {
+          display: block;
+        }
+        .large-menu {
+          display: none;
         }
       }
     }
   } //end light-bg
+  .fixed-box {
+    // add this class on an image container
+    // to make it fixed size for Listed Portfolio Style
+    width: 287.5px;
+    max-width: 287.5px;
+    min-width: 287.5px;
+    height: 287.5px;
+    max-height: 287.5px;
+    min-height: 287.5px;
+  }
+  @media only screen and (max-width: 600px) {
+    .fixed-box {
+      width: 100%;
+      min-width: 100%;
+      max-height: 100%;
+      height: 100%;
+    }
+  }
   .portfolio-container {
     width: 100%;
     border-top: 1px solid #F5F5F5;
@@ -32,23 +80,14 @@
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    .fixed-box {
-      // add this class on an image container
-      // to make it fixed size for Listed Portfolio Style
-      width: 287.5px;
-      max-width: 287.5px;
-      min-width: 287.5px;
-      height: 287.5px;
-      max-height: 287.5px;
-      min-height: 287.5px;
-    }
+
     .img-container {
       cursor: pointer;
       position: relative;
       margin: 5px!important;
       flex-grow: 1;
       display: flex;
-      // flex-direction: column;
+      flex-direction: column;
       img {
         width: 100%;
         height: 100%;
@@ -63,6 +102,7 @@
         top: 0;
         opacity: 0;
       }
+
       .text-container {
         opacity: 0;
         position: absolute;
@@ -86,10 +126,25 @@
           transition: opacity .3s ease-in-out;
           -moz-transition: opacity .3s ease-in-out;
           -webkit-transition: opacity .3s ease-in-out;
+          line-height: 80%;
+          span {
+            font-size: 100%;
+          }
+          li {
+            i, small {
+              font-size: 80%;
+            }
+          }
+        }
+        @media only screen and (max-width: 600px) {
+          .layer, .text-container {
+            display: none;
+          }
         }
       }
     }//end image container
   } //end portfolio-container
+
   .left-column {
     width: 80%;
     display: flex;
@@ -114,11 +169,16 @@
   }//end left-column
   .right-column {
     width: 20%;
-    min-width: 228px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
   }//end right-column
+  @media only screen and (max-width: 600px) {
+    .right-column, .left-column {
+      width: 100%;
+    }
+
+  }
 
   .load-more {
     display: flex;

@@ -8,7 +8,7 @@ class MateriableContact extends React.Component {
 
     render() {
         return (
-          <Block className={'materiables-contact'}>
+          <Block className={'materiables-contact'} id={'contact'}>
             <Block className={'header-bg-big'}>
             </Block>
             <Block className={'e-background-grey-100'}>
