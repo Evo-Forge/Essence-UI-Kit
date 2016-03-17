@@ -13,7 +13,7 @@ class MateriablePortfolio extends React.Component {
               <Block className={'container e-background-white'}>
                 <Menu type={'cover'} icon={'navigation-menu'} className={'e-left drop-menu'}>
                     <ListItem className={'icon-list-nav'}>
-                        <Icon name={"navigation-menu"} className={"e-text-grey-400"} />
+                      <Icon name={"navigation-menu"} className={"e-text-grey-400"} />
                     </ListItem>
                     <ListItem className={'dropdown-item'}>
                       <Text type={'a'} className={"e-text-grey-400"}>all</Text>
