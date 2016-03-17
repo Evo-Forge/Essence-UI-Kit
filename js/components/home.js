@@ -477,7 +477,7 @@ class MateriableHome extends React.Component {
                            <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                            <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                            <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                           <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
+                           <Block classes={'contact-info'}>
                              <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline  adjust-brick-6-m7'}>
                                contact info
                              </Text>
@@ -492,8 +492,6 @@ class MateriableHome extends React.Component {
                              <Text type={'p'} classes={'e-text-left e-body1'}>
                                +3321 1123 456227
                              </Text>
-                           </Block>
-                           <Block classes={'brick brick-6 contact-info'}>
                            </Block>
                        </Block>
                      </Block>
