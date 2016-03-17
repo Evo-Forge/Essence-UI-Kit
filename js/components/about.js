@@ -63,19 +63,55 @@ class MateriableAbout extends React.Component {
                       </ListItem>
                     </List>
 
-                    <List type={'inline'} className={'e-margin-top-15'}>
+                    <Block className={'button-container'}>
+                      <Btn label={'hire me'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800'} />
+                      <Btn label={'more'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600'} />
+                    </Block>
+                  </Block>
+
+                  <Block className={'flex-container'}>
+                    <Block className={'radius-block e-text-center e-margin-bottom-15 e-background-grey-500'}>
+                      <Icon name={"image-timer-auto"} className={"e-text-grey-200"} />
+                    </Block>
+                    <Text type={'h4'} classes={'e-text-center e-title'}>
+                      H.Rackham
+                    </Text>
+                    <Text type={'p'} classes={'e-text-center e-text-grey-400 e-body2 e-margin-bottom-15'}>
+                      Concept Strategist
+                    </Text>
+                    <Text type={'p'} classes={'e-text-center e-text-left e-text-grey-400 e-body2'}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </Text>
+                    <List type={'inline'}>
                       <ListItem>
-                        <Text type={'a'} href={'#'} classes={'e-button e-text-grey-500 e-text-uppercase'}>
-                          hire me
+                        <Text type={'a'} classes={'e-text-center e-button'} hreft={'#'}>
+                          <Icon name={"action-android"} className={"e-text-grey-600"} />
                         </Text>
                       </ListItem>
 
                       <ListItem>
-                        <Text type={'a'} href={'#'} classes={'e-button e-text-blue-500 e-text-uppercase'}>
-                          more
+                        <Text type={'a'} classes={'e-text-center e-button'} hreft={'#'}>
+                          <Icon name={"social-share"} className={"e-text-grey-600"} />
+                        </Text>
+                      </ListItem>
+
+                      <ListItem>
+                        <Text type={'a'} classes={'e-text-center e-button'} hreft={'#'}>
+                          <Icon name={"hardware-cast-connected"} className={"e-text-grey-600"} />
+                        </Text>
+                      </ListItem>
+
+                      <ListItem>
+                        <Text type={'a'} classes={'e-text-center e-button'} hreft={'#'}>
+                          <Icon name={"device-bluetooth-connected"} className={"e-text-grey-600"} />
                         </Text>
                       </ListItem>
                     </List>
+                    <Block className={'button-container'}>
+                      <Btn label={'hire me'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800'} />
+                      <Btn label={'more'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600'} />
+                    </Block>
+
                   </Block>
 
                   <Block className={'flex-container'}>
@@ -117,73 +153,10 @@ class MateriableAbout extends React.Component {
                       </ListItem>
                     </List>
 
-                    <List type={'inline'} className={'e-margin-top-15'}>
-                      <ListItem>
-                        <Text type={'a'} href={'#'} classes={'e-button e-text-grey-500 e-text-uppercase'}>
-                          hire me
-                        </Text>
-                      </ListItem>
-
-                      <ListItem>
-                        <Text type={'a'} href={'#'} classes={'e-button e-text-blue-500 e-text-uppercase'}>
-                          more
-                        </Text>
-                      </ListItem>
-                    </List>
-                  </Block>
-
-                  <Block className={'flex-container'}>
-                    <Block className={'radius-block e-text-center e-margin-bottom-15 e-background-grey-500'}>
-                      <Icon name={"image-timer-auto"} className={"e-text-grey-200"} />
+                    <Block className={'button-container'}>
+                      <Btn label={'hire me'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800'} />
+                      <Btn label={'more'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600'} />
                     </Block>
-                    <Text type={'h4'} classes={'e-text-center e-title'}>
-                      H.Rackham
-                    </Text>
-                    <Text type={'p'} classes={'e-text-center e-text-grey-400 e-body2 e-margin-bottom-15'}>
-                      Concept Strategist
-                    </Text>
-                    <Text type={'p'} classes={'e-text-center e-text-left e-text-grey-400 e-body2'}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    </Text>
-                    <List type={'inline'}>
-                      <ListItem>
-                        <Text type={'a'} classes={'e-text-center e-button'} hreft={'#'}>
-                          <Icon name={"action-android"} className={"e-text-grey-600"} />
-                        </Text>
-                      </ListItem>
-
-                      <ListItem>
-                        <Text type={'a'} classes={'e-text-center e-button'} hreft={'#'}>
-                          <Icon name={"social-share"} className={"e-text-grey-600"} />
-                        </Text>
-                      </ListItem>
-
-                      <ListItem>
-                        <Text type={'a'} classes={'e-text-center e-button'} hreft={'#'}>
-                          <Icon name={"hardware-cast-connected"} className={"e-text-grey-600"} />
-                        </Text>
-                      </ListItem>
-
-                      <ListItem>
-                        <Text type={'a'} classes={'e-text-center e-button'} hreft={'#'}>
-                          <Icon name={"device-bluetooth-connected"} className={"e-text-grey-600"} />
-                        </Text>
-                      </ListItem>
-                    </List>
-
-                    <List type={'inline'} className={'e-margin-top-15'}>
-                      <ListItem>
-                        <Text type={'a'} href={'#'} classes={'e-button e-text-grey-500 e-text-uppercase'}>
-                          hire me
-                        </Text>
-                      </ListItem>
-
-                      <ListItem>
-                        <Text type={'a'} href={'#'} classes={'e-button e-text-blue-500 e-text-uppercase'}>
-                          more
-                        </Text>
-                      </ListItem>
-                    </List>
                   </Block>
                 </Block>
 
