@@ -25,7 +25,7 @@ class MateriableHome extends React.Component {
                         <li></li>
                     </ul>
                   </Block>
-                  <Text type={'a'} href={'#footer'}>
+                  <Text type={'a'} href={'#footer'} className={'adjust-a-fab'}>
                     <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'primary'} className={'fab-mini e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />
                   </Text>
               </Block>
@@ -240,8 +240,10 @@ class MateriableHome extends React.Component {
                                 </Text>
                             </Paper>
                         </Block>
-                        <Btn label={'MORE WORK'} ripple={true} className={'raised e-background-pink-A200 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
-                        <Btn label={'CONTACT US'} ripple={true} className={'raised e-background-grey-800 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
+                        <Block className={'fix-photo div-buttons-m3'}>
+                            <Btn label={'MORE WORK'} ripple={true} className={'raised e-background-pink-A200 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
+                            <Btn label={'CONTACT US'} ripple={true} className={'raised e-background-grey-800 e-text-white adjust-bloc-three-buttons e-margin-top-50'} />
+                        </Block>
                       </Block>
                  </Block>
               </Block>
@@ -443,7 +445,7 @@ class MateriableHome extends React.Component {
                  <Block className={'e-container'}>
                    <Paper className={'e-margin-top-50 padding-50 e-background-white container'}>
                      <Block classes={'e-row'}>
-                       <Block classes={'brick brick-6'}>
+                       <Block classes={'brick brick-6 adjust-brick-6-m7'}>
                          <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
                            send a message
                          </Text>
@@ -466,7 +468,7 @@ class MateriableHome extends React.Component {
                          <Btn label={'Send message'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600 e-right'} />
                          <Btn label={'Clear'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800 e-right'} />
                        </Block>
-                       <Block classes={'brick brick-6'}>
+                       <Block classes={'brick brick-6 adjust-brick-6-m7'}>
                            <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
                              get social
                            </Text>
@@ -476,7 +478,7 @@ class MateriableHome extends React.Component {
                            <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                            <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                            <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
-                             <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
+                             <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline  adjust-brick-6-m7'}>
                                contact info
                              </Text>
                              <Text type={'p'} classes={'e-text-left e-body1'}>
@@ -491,7 +493,7 @@ class MateriableHome extends React.Component {
                                +3321 1123 456227
                              </Text>
                            </Block>
-                           <Block classes={'brick brick-6 e-padding-top-50 contact-info'}>
+                           <Block classes={'brick brick-6 contact-info'}>
                            </Block>
                        </Block>
                      </Block>
