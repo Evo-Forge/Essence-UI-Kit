@@ -787,14 +787,8 @@ class MateriableBlog extends React.Component {
                       <Icon name={"communication-messenger"} className={"e-text-grey-800"} />
                       <Input type={'text'} name={'label'} label={'Your message'}/>
                     </Block>
-                    <Block classes={'e-row'}>
-                      <Block classes={'brick brick-6 e-text-right'}>
-                        <Text type={'a'} href={''} classes={' e-text-grey-700 e-text-uppercase e-body2'}>clear</Text>
-                      </Block>
-                      <Block classes={'brick brick-6 e-text-right'}>
-                        <Text type={'a'} href={''} classes={'e-text-indigo-600 e-text-uppercase e-body2'}>send message</Text>
-                      </Block>
-                    </Block>
+                    <Btn label={'Send message'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600 e-right'} />
+                    <Btn label={'Clear'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800 e-right'} />
                   </Block>
                 </Card>
                 {/* End of Join discussion*/}

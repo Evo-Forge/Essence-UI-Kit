@@ -309,6 +309,11 @@
     font-weight: 600;
     align-self: center;
   }
+  .adjust-fab-header {
+    position: absolute;
+    right: 100px;
+    top: 420px;
+  }
   .header-bg-big {
     height: 400px;
     background: linear-gradient(rgba(76, 66, 126, 0.8), rgba(76, 66, 126, 0.8)), url('http://blog.hvidtfeldts.net/media/map3x.jpg') center center fixed;
@@ -321,31 +326,34 @@
     margin-top: -50px;
     margin-bottom: 50px;
   }
-  .adjust-fab-header {
-    position: absolute;
-    right: 100px;
-    top: 420px;
-  }
   .container {
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box;
   }
-  .floating-label {
-    top: -40px!important;
-  }
   .e-input-group {
     display: inline-block;
     width: 90%;
   }
-  .e-input:not(.empty)~.floating-label {
-    top: -60px!important;
+  .e-paper {
+    box-sizing: border-box;
+    line-height: 30px;
   }
 }
  @media (max-width: 1120px) {
-   .materiables-contact {
+   .materiables-home {
      .contact-info {
        width: 100%;
      }
    }
+}
+@media (max-width: 900px) {
+  .materiables-home {
+    .e-input-group {
+      width: 80%;
+    }
+    .header-bg-big {
+      height: 200px;
+    }
+  }
 }

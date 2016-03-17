@@ -42,6 +42,99 @@ var ChipNoIconNonDeletable6 = {
   deletable: false,
   onClose: ( function () { console.log('no icon non deletable chip'); } )
 }
+var tabs2 = {
+ 'header': [
+   { 'context': (<Text>Latest</Text>) },
+   { 'context': (<Text>Popular</Text>) },
+   { 'context': (<Text>Top Rating</Text>) }
+  ],
+  'rows': [
+   (<Block>
+     <List type={'navigation'} classes={'e-twolinelist'}>
+       <ListItem>
+        <Text type={'a'} className={'a-padding-left'}>
+         <Image src={'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThstworJpqzrTiWCtoiEH4RQ580ocfKYKFJVRNuMp4mkZAm2sFPQ'} alt={'Desk'} classes={'e-left poze-latest'}/>
+         <Block classes={'content e-left'}>
+          <Text type={'p'} classes={'primary e-text-grey-800 e-body2'}>Lorem ipsum dolor sit amet, eum altera putent eleifend.</Text>
+          <Text classes={'secondary'}>Jan 9, 2016</Text>
+         </Block>
+        </Text>
+       </ListItem>
+      <Divider classes={'thinnest e-background-grey-200'} />
+       <ListItem>
+         <Text type={'a'} className={'a-padding-left'}>
+          <Image src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjNHE-lGPyaV9jyMtZM9xoC7oRDY8NyaER6yiZlWViHhAykfLP7g'} alt={'Desk'} classes={'e-left poze-latest'}/>
+          <Block classes={'content e-left'}>
+           <Text type={'p'} classes={'primary e-text-grey-800 e-body2'}>Lorem ipsum dolor sit amet, eum altera putent eleifend.</Text>
+           <Text classes={'secondary'}>Jan 9, 2016</Text>
+          </Block>
+         </Text>
+       </ListItem>
+       <Divider classes={'thinnest e-background-grey-200'} />
+       <ListItem>
+         <Text type={'a'} className={'a-padding-left'}>
+          <Image src={'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQimbPhHFzhQo2bgJWqYUMKftSvcI2ctkwasP6hgBabTlaSqs1a8w'} alt={'Desk'} classes={'e-left poze-latest'}/>
+          <Block classes={'content e-left'}>
+           <Text type={'p'} classes={'primary e-text-grey-800 e-body2'}>Lorem ipsum dolor sit amet, eum altera putent eleifend.</Text>
+           <Text classes={'secondary'}>Jan 9, 2016</Text>
+          </Block>
+         </Text>
+       </ListItem>
+      </List>
+    </Block>
+   ),
+   (<Text>This is the context for Tab 2</Text>),
+   (<Text>This is the context for Tab 2</Text>)
+ ]
+};
+
+var tabs = {
+ 'header': [
+   { 'context': (<Text>About me</Text>) },
+   { 'context': (<Text>Follow me</Text>) },
+   { 'context': (<Text>My works</Text>) }
+],
+
+  'rows': [
+   (<Block>
+      <Card className={'e-background-white'}>
+        <CardContent className={'e-text-center'}>
+          <List type={'inline'}>
+            <ListItem>
+              <Btn icon={'social-person'} ripple={true} type={'succes'} classes={'fab e-background-deep-purple-A200'} />
+            </ListItem>
+            <ListItem>
+              <Image src={'http://i.skyrock.net/8001/80148001/pics/3129738968_1_10_BuQ0dDiz.jpg'} className={'profil'} />
+            </ListItem>
+            <ListItem>
+              <Btn icon={'social-person'} ripple={true} type={'info'} className={'fab'} />
+            </ListItem>
+          </List>
+          <Block>
+            <Text type={'p'} classes={'e-text-grey-800 e-body2'}>Leonard J. Kem
+            </Text>
+            <Text type={'span'} classes={'e-text-center e-caption'}>
+              <Icon name={"communication-location-on"} className={"e-text-grey-700"} />
+              San Francisco CA</Text>
+            <Block classes={'bl-padding'}>
+              <Text type={'span'} classes={'e-text-center e-caption'}>
+                Lorem ipsum dolor sit amet, eum altera putent eleifend ut. Est an facer graeco nominavi.
+              </Text>
+            </Block>
+          </Block>
+          <Text type={'a'} classes={'e-text-center e-caption e-body2 e-text-blue-400'}>More</Text>
+        </CardContent>
+      </Card>
+    </Block>
+   ),
+   (<Block>
+      <Text>This is the context for Tab 2</Text>
+      <Btn label={'Button Example'} ripple={false} type={'succes'} className={'raised'} />
+    </Block>
+    ),
+   (<Text>This is the context for Tab with callback alert</Text>)
+ ]
+};
 
 class MateriableSinglePost extends React.Component {
 
@@ -62,7 +155,7 @@ class MateriableSinglePost extends React.Component {
                     <Block className={'post-container'}>
                       <Block className={'right-column'}>
                         <Block className={'post-content'}>
-                          <Text type={'h1'} classes={'e-headline'}>Single Post with Sidebar</Text>
+                          <Text type={'h1'} classes={'e-headline'}>Single Post with full image</Text>
                           <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
                           <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
                           <Text type={'span'} classes={'e-text-center e-caption'}>
@@ -218,7 +311,7 @@ class MateriableSinglePost extends React.Component {
                     </Text>
                     <Block>
                       <Icon name={"social-person"} className={"e-text-grey-800"} />
-                      <Input type={'text'} name={'label'} label={'Input with label'}/>
+                      <Input type={'text'} name={'label'} label={'Your name'}/>
                     </Block>
                     <Block>
                       <Icon name={"communication-email"} className={"e-text-grey-800"} />
@@ -232,14 +325,8 @@ class MateriableSinglePost extends React.Component {
                       <Icon name={"communication-messenger"} className={"e-text-grey-800"} />
                       <Input type={'text'} name={'label'} label={'Your message'}/>
                     </Block>
-                    <Block classes={'e-row'}>
-                      <Block classes={'brick brick-6 e-text-right'}>
-                        <Text type={'a'} href={''} classes={' e-text-grey-700 e-text-uppercase e-body2'}>clear</Text>
-                      </Block>
-                      <Block classes={'brick brick-6 e-text-right'}>
-                        <Text type={'a'} href={''} classes={'e-text-indigo-600 e-text-uppercase e-body2'}>send message</Text>
-                      </Block>
-                    </Block>
+                    <Btn label={'Send message'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600 e-right'} />
+                    <Btn label={'Clear'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800 e-right'} />
                   </Block>
                 </Card>
                 {/* End of Join discussion*/}
