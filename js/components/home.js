@@ -38,7 +38,7 @@ class MateriableHome extends React.Component {
                         <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2'}>
                             OUR SERVICE
                             </Text>
-                            <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-40'}>
+                            <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-40 h5-padding-top'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             </Text>
                     </Block>
@@ -91,7 +91,7 @@ class MateriableHome extends React.Component {
                     <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2'}>
                         LATEST POST
                     </Text>
-                    <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-40'}>
+                    <Text type={'h5'} classes={'e-text-center e-body2 e-padding-left-right-40 h5-padding-top'}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     </Text>
                     </Block>
@@ -162,7 +162,7 @@ class MateriableHome extends React.Component {
                           <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2-paper'}>
                               Latest Projects
                               </Text>
-                              <Text type={'h5'} classes={'e-text-center e-body2  adjust-h5-paper'}>
+                              <Text type={'h5'} classes={'e-text-center e-body2  adjust-h5-paper h5-padding-top'}>
                               Lorem ipsum dolor sit amet, vitae erat, libero neque vehicula, eius aliquam donec euismod diam, ante mi convallis
                               maecenas turpis.
                               </Text>
@@ -256,7 +256,7 @@ class MateriableHome extends React.Component {
                         <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2'}>
                             OUR SERVICE
                             </Text>
-                            <Text type={'h5'} classes={'e-text-center e-body2 '}>
+                            <Text type={'h5'} classes={'e-text-center e-body2 h5-padding-top'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             </Text>
                     </Block>
@@ -345,7 +345,7 @@ class MateriableHome extends React.Component {
                         <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2 e-text-white'}>
                             OUR SERVICE
                             </Text>
-                            <Text type={'h5'} classes={'e-text-center e-body2 e-text-white'}>
+                            <Text type={'h5'} classes={'e-text-center e-body2 e-text-white h5-padding-top'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             </Text>
                     </Block>
@@ -405,7 +405,7 @@ class MateriableHome extends React.Component {
                             <Text type={'h2'} classes={'e-text-center e-display-2 adjust-h2 e-text-white'}>
                                 OUR SERVICE
                                 </Text>
-                                <Text type={'h5'} classes={'e-text-center e-body2 e-text-white'}>
+                                <Text type={'h5'} classes={'e-text-center e-body2 e-text-white h5-padding-top'}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 </Text>
                         </Block>
@@ -472,13 +472,15 @@ class MateriableHome extends React.Component {
                            <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
                              get social
                            </Text>
-                           <Btn icon={'action-accessibility'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                           <Btn icon={'action-info-outline'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                           <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                           <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                           <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                           <Block className={'icon-fab-get-flex'}>
+                               <Btn icon={'action-accessibility'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                               <Btn icon={'action-info-outline'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                               <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                               <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                               <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                           </Block>
                            <Block classes={'contact-info'}>
-                             <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline  adjust-brick-6-m7'}>
+                             <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline adjust-brick-6-m7'}>
                                contact info
                              </Text>
                              <Text type={'p'} classes={'e-text-left e-body1'}>
