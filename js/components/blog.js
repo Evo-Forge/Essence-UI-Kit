@@ -184,8 +184,8 @@ class MateriableBlog extends React.Component {
 
                 <Tab
                 data={tabs}
-                classes={'e-text-left e-caption nav-no-padding'}
-                indicator={'e-background-white-500'}/>
+                classes={'e-background-indigo-500 e-text-grey-500 e-text-left e-caption adjust-margin-card nav-no-padding'}
+                indicator={'e-background-red-500'}/>
 
               <Card className={'adjust-margin-card e-background-white'}>
                   <CardHeader>
@@ -372,11 +372,13 @@ class MateriableBlog extends React.Component {
               </Block>
 
               <Block classes={'main-right-column'}>
+                <Block className={'about-me-tabs'}>
+                  <Tab
+                  data={tabs}
+                  classes={'e-background-indigo-500 e-text-grey-500 e-text-left e-caption nav-no-padding'}
+                  indicator={'e-background-red-500'}/>
+                </Block>
 
-                <Tab
-                data={tabs}
-                classes={'e-background-indigo-500 e-text-grey-500 e-text-left e-caption nav-no-padding'}
-                indicator={'e-background-red-500'}/>
 
 
                 <Card>
@@ -627,7 +629,7 @@ class MateriableBlog extends React.Component {
                       </Block>
                       <Block className={'right-column'}>
                         <Block className={'post-content'}>
-                          <Text type={'h1'} classes={'e-headline resize-h1'}>Single Post with Sidebar</Text>
+                          <Text type={'h1'} classes={'e-headline'}>Single Post with Sidebar</Text>
                           <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
                           <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
                           <Text type={'span'} classes={'e-text-center e-caption'}>
@@ -659,10 +661,10 @@ class MateriableBlog extends React.Component {
                               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                             </Text>
                             <Block classes={'brick brick-6'}>
-                              <Block classes={'brick brick-4 no-padding e-padding-top-25'}>
+                              <Block classes={'brick brick-3'}>
                                 <Image src={'http://i.skyrock.net/8001/80148001/pics/3129738968_1_10_BuQ0dDiz.jpg'} className={'profil-post'} />
                               </Block>
-                              <Block classes={'brick brick-8 no-padding e-padding-top-25'}>
+                              <Block classes={'brick brick-9'}>
                                 <Text type={'span'} classes={'e-title'}>By: </Text>
                                 <Text type={'a'} classes={'e-title e-text-blue-400'}>Leonardo J Kem</Text>
                                 <Text type={'p'} classes={'e-body1 e-text-grey-700'}>I am interested in researching web sites, and exploring the artistic </Text>

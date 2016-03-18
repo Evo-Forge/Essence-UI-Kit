@@ -31,11 +31,20 @@
     .e-tabs-container .e-tabs-container.revert.active {
       padding: 0!important;
     }
+    .e-tabs-list a {
+      padding: 0 10px!important;
+    }
 
     .main-right-column {
       box-sizing: border-box;
       width: 70%;
       padding-left: 10px;
+      .about-me-tabs {
+        display: none;
+        @media only screen and (max-width: 1110px) {
+          display: block;
+        }
+      }
       .all-posts-container {
         box-sizing: border-box;
         display: flex;
