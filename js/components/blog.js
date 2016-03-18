@@ -620,7 +620,7 @@ class MateriableBlog extends React.Component {
                       </Block>
                       <Block className={'right-column'}>
                         <Block className={'post-content'}>
-                          <Text type={'h1'} classes={'e-headline'}>Single Post with Sidebar</Text>
+                          <Text type={'h1'} classes={'e-headline resize-h1'}>Single Post with Sidebar</Text>
                           <Text type={'span'} classes={'e-body1'}><Icon name={"social-person"} className={"e-text-grey-700"} />By: </Text>
                           <Text type={'a'} classes={'e-body1 e-text-blue-400'}>Leonardo J Kem</Text>
                           <Text type={'span'} classes={'e-text-center e-caption'}>
