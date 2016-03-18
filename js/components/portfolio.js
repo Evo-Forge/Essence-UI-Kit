@@ -10,6 +10,9 @@ class MateriablePortfolio extends React.Component {
           <Block className={'materiable-portfolio'} id={'portfolio'}>
 
             <Block className={'light-bg e-background-indigo-500'}>
+              <Text type={'h1'} className={'e-text-white e-text-center e-title'}>
+                  Portfolio
+               </Text>
               <Block className={'container e-background-white'}>
                 <Menu type={'cover'} icon={'navigation-menu'} className={'e-left drop-menu'}>
                     <ListItem className={'icon-list-nav'}>
