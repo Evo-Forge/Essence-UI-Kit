@@ -107,7 +107,7 @@ class MateriableOther extends React.Component {
                   <Text type={'h2'} classes={'e-text-left e-margin-top-100 e-text-grey-400 e-text-uppercase e-display-1'}>
                     raised flat buttons
                   </Text>
-                  <Block>
+                  <Block className={'flex-container'}>
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat'} />
                     <Btn label={'Button'} ripple={true} type={'danger'} className={'flat'} />
                     <Btn label={'Button'} ripple={true} type={'succes'} className={'flat'} />
@@ -117,7 +117,7 @@ class MateriableOther extends React.Component {
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat e-background-black'} />
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat e-background-grey-800'} />
                   </Block>
-                  <Block>
+                  <Block className={'flex-container'}>
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'raised e-background-white e-text-blue-600'} />
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'raised e-background-white e-text-red-600'} />
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'raised e-background-white e-text-green-700'} />
@@ -127,7 +127,7 @@ class MateriableOther extends React.Component {
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'raised e-background-white e-text-black'} />
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'raised e-background-white e-text-grey-800'} />
                   </Block>
-                  <Block>
+                  <Block className={'flex-container'}>
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600'} />
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat e-background-white e-text-red-600'} />
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat e-background-white e-text-green-700'} />
@@ -137,7 +137,7 @@ class MateriableOther extends React.Component {
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat e-background-white e-text-black'} />
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800'} />
                   </Block>
-                  <Block>
+                  <Block className={'flex-container'}>
                     <Text type={'h2'} classes={'e-text-left e-margin-top-100 e-text-grey-400 e-text-uppercase e-display-1'}>
                       floating action buttons
                     </Text>
@@ -150,10 +150,10 @@ class MateriableOther extends React.Component {
                     <Btn icon={'content-add'} ripple={true} type={'fab'} className={'fab e-text-white e-background-black'} />
                     <Btn icon={'content-add'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-700'} />
                   </Block>
-                  <Block>
                     <Text type={'h2'} classes={'e-text-left e-margin-top-100 e-text-grey-400 e-text-uppercase e-display-1'}>
                       social icons
                     </Text>
+                    <Block className={'flex-container'}>
                     <Btn icon={'action-accessibility'} ripple={true} type={'fab'} className={'fab e-text-grey-800 e-background-grey-300'} />
                     <Btn icon={'action-info-outline'} ripple={true} type={'fab'} className={'fab e-text-grey-800 e-background-grey-300'} />
                     <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-grey-800 e-background-grey-300'} />
@@ -167,9 +167,9 @@ class MateriableOther extends React.Component {
                     <Text type={'h2'} classes={'e-text-left e-margin-top-100 e-text-grey-400 e-text-uppercase e-display-1'}>
                       tags
                     </Text>
-                    <Chip data={ChipNoIconNonDeletable} /><Chip data={ChipNoIconNonDeletable1} /><Chip data={ChipNoIconNonDeletable2} /><Chip data={ChipNoIconNonDeletable3} />
-                    <Chip data={ChipNoIconNonDeletable4} /><Chip data={ChipNoIconNonDeletable5} /><Chip data={ChipNoIconNonDeletable6} /><Chip data={ChipNoIconNonDeletable7} />
-                    <Chip data={ChipNoIconNonDeletable} /><Chip data={ChipNoIconNonDeletable8} />
+                    <Chip data={ChipNoIconNonDeletable} className={'margin-chip'} /><Chip data={ChipNoIconNonDeletable1} className={'margin-chip'} /><Chip data={ChipNoIconNonDeletable2} className={'margin-chip'} /><Chip data={ChipNoIconNonDeletable3} className={'margin-chip'} />
+                    <Chip data={ChipNoIconNonDeletable4} className={'margin-chip'} /><Chip data={ChipNoIconNonDeletable5} className={'margin-chip'} /><Chip data={ChipNoIconNonDeletable6} className={'margin-chip'} /><Chip data={ChipNoIconNonDeletable7} className={'margin-chip'} />
+                    <Chip data={ChipNoIconNonDeletable} className={'margin-chip'} /><Chip data={ChipNoIconNonDeletable8} className={'margin-chip'} />
                   </Block>
                   <Block>
                     <Text type={'h2'} classes={'e-text-left e-margin-top-100 e-text-grey-400 e-text-uppercase e-display-1'}>
