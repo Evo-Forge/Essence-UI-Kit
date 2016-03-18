@@ -163,7 +163,10 @@ class MateriableBlog extends React.Component {
               <Btn icon={'hardware-keyboard-arrow-down'} ripple={true} type={'primary'} className={'fab-mini e-text-white e-btn-fab adjust-fab-header e-background-pink-A200'} />
           </Block>
 
-            <Block classes='top-blog e-background-indigo-500'>
+            <Block classes='top-blog e-background-indigo-500 e-padding-top-15'>
+              <Text className={'logo-text'}>
+                  Materiable
+               </Text>
             </Block>
 
         		<Block className={'e-container main-content go-top'}>
