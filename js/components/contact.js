@@ -38,15 +38,16 @@ class MateriableContact extends React.Component {
                       <Btn label={'Send message'} ripple={true} type={'primary'} className={'flat e-background-white e-text-blue-600 e-right'} />
                       <Btn label={'Clear'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800 e-right'} />
                     </Block>
-                    <Block classes={'brick brick-6'}>
-                      <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
-                        get social
-                      </Text>
+                    <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
+                      get social
+                    </Text>
+                    <Block classes={'brick brick-6 flex-container'}>
                       <Btn icon={'action-accessibility'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                       <Btn icon={'action-info-outline'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                       <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                       <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                       <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
+                    </Block>
                       <Block classes={'contact-info'}>
                         <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
                           contact info
@@ -63,7 +64,6 @@ class MateriableContact extends React.Component {
                           +3321 1123 456227
                         </Text>
                       </Block>
-                    </Block>
                   </Block>
                 </Paper>
               </Block>
