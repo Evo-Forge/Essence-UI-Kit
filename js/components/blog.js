@@ -164,8 +164,8 @@ class MateriableBlog extends React.Component {
           </Block>
 
             <Block classes='top-blog e-background-indigo-500 e-padding-top-15'>
-              <Text className={'logo-text'}>
-                  Materiable
+              <Text type={'h1'} className={'e-text-white e-text-center e-title'}>
+                  Blog
                </Text>
             </Block>
 
@@ -184,8 +184,8 @@ class MateriableBlog extends React.Component {
 
                 <Tab
                 data={tabs}
-                classes={'e-background-indigo-500 e-text-grey-500 e-text-left e-caption adjust-margin-card nav-no-padding'}
-                indicator={'e-background-red-500'}/>
+                classes={'e-text-left e-caption nav-no-padding'}
+                indicator={'e-background-white-500'}/>
 
               <Card className={'adjust-margin-card e-background-white'}>
                   <CardHeader>
@@ -372,6 +372,13 @@ class MateriableBlog extends React.Component {
               </Block>
 
               <Block classes={'main-right-column'}>
+
+                <Tab
+                data={tabs}
+                classes={'e-background-indigo-500 e-text-grey-500 e-text-left e-caption nav-no-padding'}
+                indicator={'e-background-red-500'}/>
+
+
                 <Card>
                  <CardContent className={'all-posts-container e-background-white'}>
                      <Block className={'post-container small-image'}>
