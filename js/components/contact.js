@@ -47,23 +47,23 @@ class MateriableContact extends React.Component {
                       <Btn icon={'action-loyalty'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                       <Btn icon={'action-thumb-up'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
                       <Btn icon={'av-timer'} ripple={true} type={'fab'} className={'fab e-text-white e-background-grey-400'} />
-                    </Block>
                       <Block classes={'contact-info'}>
-                        <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
-                          contact info
-                        </Text>
-                        <Text type={'p'} classes={'e-text-left e-body1'}>
-                          Section 1.10.33 of de Finibus
-                          Bonorum et malorum sk
-                          9002 st.
-                        </Text>
-                        <Text type={'p'} classes={'e-text-left e-body1'}>
-                          +3321 1123 456227
-                        </Text>
-                        <Text type={'p'} classes={'e-text-left e-body1'}>
-                          +3321 1123 456227
-                        </Text>
+                      <Text type={'h2'} classes={'e-text-left e-text-grey-800 e-text-uppercase e-headline'}>
+                      contact info
+                      </Text>
+                      <Text type={'p'} classes={'e-text-left e-body1'}>
+                      Section 1.10.33 of de Finibus
+                      Bonorum et malorum sk
+                      9002 st.
+                      </Text>
+                      <Text type={'p'} classes={'e-text-left e-body1'}>
+                      +3321 1123 456227
+                      </Text>
+                      <Text type={'p'} classes={'e-text-left e-body1'}>
+                      +3321 1123 456227
+                      </Text>
                       </Block>
+                    </Block>
                   </Block>
                 </Paper>
               </Block>
