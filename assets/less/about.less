@@ -31,6 +31,12 @@
       flex-direction: row;
       justify-content: space-between;
       box-sizing: border-box;
+
+      .button-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
       h2 {
         width: 100%;
       }
@@ -117,6 +123,9 @@
     line-height: normal;
     font-size: 100%;
     box-sizing: border-box;
+    li {
+      padding: 0;
+    }
     @media only screen and (max-width: 600px) {
       width: 33%;
     }
