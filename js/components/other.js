@@ -137,10 +137,10 @@ class MateriableOther extends React.Component {
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat e-background-white e-text-black'} />
                     <Btn label={'Button'} ripple={true} type={'primary'} className={'flat e-background-white e-text-grey-800'} />
                   </Block>
+                  <Text type={'h2'} classes={'e-text-left e-margin-top-100 e-text-grey-400 e-text-uppercase e-display-1'}>
+                    floating action buttons
+                  </Text>
                   <Block className={'flex-container'}>
-                    <Text type={'h2'} classes={'e-text-left e-margin-top-100 e-text-grey-400 e-text-uppercase e-display-1'}>
-                      floating action buttons
-                    </Text>
                     <Btn icon={'content-add'} ripple={true} type={'fab'} className={'fab e-text-white e-background-blue-600'} />
                     <Btn icon={'content-add'} ripple={true} type={'fab'} className={'fab e-text-white e-background-red-600'} />
                     <Btn icon={'content-add'} ripple={true} type={'fab'} className={'fab e-text-white e-background-green-700'} />
