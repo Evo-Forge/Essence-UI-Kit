@@ -652,10 +652,10 @@ class MateriableBlog extends React.Component {
                               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                             </Text>
                             <Block classes={'brick brick-6'}>
-                              <Block classes={'brick brick-3'}>
+                              <Block classes={'brick brick-4 no-padding e-padding-top-25'}>
                                 <Image src={'http://i.skyrock.net/8001/80148001/pics/3129738968_1_10_BuQ0dDiz.jpg'} className={'profil-post'} />
                               </Block>
-                              <Block classes={'brick brick-9'}>
+                              <Block classes={'brick brick-8 no-padding e-padding-top-25'}>
                                 <Text type={'span'} classes={'e-title'}>By: </Text>
                                 <Text type={'a'} classes={'e-title e-text-blue-400'}>Leonardo J Kem</Text>
                                 <Text type={'p'} classes={'e-body1 e-text-grey-700'}>I am interested in researching web sites, and exploring the artistic </Text>
